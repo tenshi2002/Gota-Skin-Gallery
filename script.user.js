@@ -1,1 +1,2484 @@
-function _0x56c8(){const _0x545ae6=['#4caf50','filter\x200.15s','preserve-3d','rgba(40,40,40,0.98)','copied','Add\x20Profile','backgroundColor','2px\x20solid\x20transparent','justifyContent','4px','querySelectorAll','30px','padding','1px\x20solid\x20white','13px','getAttribute','0\x20-6px','text','addEventListener','.skin-slot','objectFit','661716zopord','rotate(-90deg)','8px\x2018px','red','Show\x20only\x20favorites','createObjectURL','button','elementsFromPoint','transform\x200.2s','Add','90px','0\x204px\x2024px\x20rgba(0,0,0,0.25)','rgba(40,180,80,0.97)','account-login','6ezPZpS','main','remove','1160168HibxdJ','_deleteListener','skins','slice','10px\x2010px\x200\x2010px','filter','change','Click\x20to\x20copy','Skin\x20','activeElement','mouseleave','innerHTML','pointerEvents','bottom','relative','position','clipboard','relevance','Cancel','Skin\x20added\x20successfully!','marginBottom','clientX','absolute','1px\x20solid\x20#ccc','some','push','130px','🛠️','sort','9999','#d32f2f','focus','grabbing','onload','Rename','outline','4px\x2010px','0\x208px\x2032px\x20rgba(0,0,0,0.25)','maxWidth','appendChild','6px','skin-name','height','rgba(255,193,7,0.18)','12px','rgba(0,0,0,0.5)','fontWeight','account-gallery-login','body','Default','overlap-warning','cloneNode','file','preventDefault','contains','transition','favorite-star','Oldest\x20First','18px','fixed','favorite','scale(1.08)','rgba(30,0,0,0.8)','100%','flexDirection','onclick','6px\x200','none','default','32px','5px','getComputedStyle','#skinBox\x20.circle-slot','Favorite\x20⭐','cover','borderRadius','mouseup','Add\x20Skin','Failed\x20to\x20import:\x20','Delete\x20Profile','DOMContentLoaded','skin-drag-clone','#222','offsetLeft','Rename\x20Profile','boxShadow','right','includes','You\x20already\x20have\x20a\x20profile\x20with\x20that\x20name.\x20(Both\x20will\x20be\x20kept)','splice','\x0a\x20\x20\x20\x20\x20\x20\x20\x20#skinBox\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x2011px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x20181px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20600px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20355px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x20100vw;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20100vh;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x20320px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-height:\x20200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(100,\x20100,\x20100,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20gray;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-sizing:\x20border-box;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x2024px\x20rgba(0,0,0,0.18);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20hidden;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20.circle-grid-container\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow-y:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-sizing:\x20border-box;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20.circle-grid\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20grid;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20grid-template-columns:\x20repeat(auto-fill,\x20122px);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20grid-auto-rows:\x20166px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20gap:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20start;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20.skin-slot\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20user-select:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20.circle-slot\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20122px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20122px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20linear-gradient(135deg,\x20#ff3b3b,\x20#3bff3b,\x20#3b3bff,\x20#ffe53b,\x20#ff993b,\x20#b13bff,\x20#ff3b3b);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20dashed\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x207px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-shrink:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Remove\x20animation\x20from\x20base\x20class\x20for\x20perf\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-size:\x20400%\x20400%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-position:\x20100%\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.circle-slot.animated-bg\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20cell-rgb-breath\x2016s\x20linear\x20infinite;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20cell-rgb-breath\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x200%\x20\x20\x20{\x20background-position:\x20100%\x2050%;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2043.75%\x20{\x20background-position:\x200%\x2050%;\x20}\x20/*\x207s\x20of\x2016s\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2050%\x20\x20{\x20background-position:\x200%\x2050%;\x20}\x20\x20\x20/*\x201s\x20pause\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2093.75%\x20{\x20background-position:\x20100%\x2050%;\x20}\x20/*\x207s\x20back\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x20background-position:\x20100%\x2050%;\x20}\x20\x20/*\x201s\x20pause\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.circle-slot.favorite\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Add\x20a\x20thin\x20gold\x20outline\x20and\x20show\x20badge\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20#ffd600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x200\x201px\x20#fffbe6;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20#skinBox\x20.circle-slot\x20.favorite-star\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2026px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ffd600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-shadow:\x200\x202px\x208px\x20#fffbe6,\x200\x200\x202px\x20#ffd600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x2010;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20filter:\x20drop-shadow(0\x200\x202px\x20#fffbe6);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20favorite-star-pop\x200.5s\x20cubic-bezier(.5,1.8,.5,1)\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20favorite-star-pop\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x20transform:\x20scale(0.7)\x20rotate(-20deg);\x20opacity:\x200.2;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2060%\x20{\x20transform:\x20scale(1.2)\x20rotate(10deg);\x20opacity:\x201;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x20transform:\x20scale(1)\x20rotate(0deg);\x20opacity:\x201;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20.skin-name\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x2080px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20left;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(0,0,0,0.4);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x204px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x202px\x204px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20hidden;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-overflow:\x20ellipsis;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20white-space:\x20nowrap;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-shrink:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20background\x200.15s,\x20color\x200.15s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.skin-name.copied\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#1976d2;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Hide\x20gallery\x20if\x20it\x20would\x20overlap\x20a\x20critical\x20menu\x20(example:\x20#hud)\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20#skinBox.overlap-warning\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20#e53935;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x2016px\x20#e53935;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Resize\x20handle\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20#skinBox\x20.resize-handle\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(255,255,255,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x200\x200\x208px\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20se-resize;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x2010002;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20flex-end;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20flex-end;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20#skinBox\x20.resize-handle:after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x27\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-right:\x202px\x20solid\x20#aaa;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-bottom:\x202px\x20solid\x20#aaa;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x202px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x200\x200\x204px\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20','rotateY(180deg)','createElement','delete','img','max','stopPropagation','#23272e','find','Delete','block','Search…','visibility','Skin\x20Name','result','classList','Add\x20to\x20Favorites','.json,application/json','animated-bg','hud','setItem','fontSize','idx','16px','getBoundingClientRect','.json','Invalid\x20format','removeChild','transform','1399270hywZjv','2093441NYYKHI','opacity\x200.2s','drop-shadow(0\x200\x204px\x20#4cafef)','display','resize-handle','cssText','trim','355px','dragging','color','backfaceVisibility','white','top','Share\x20Profile','11px','value','src','\x0a\x20\x20\x20\x20\x20\x20\x20\x20#main-rb,\x20#GOT_gota-io_336x280\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20visibility:\x20hidden\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-height:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20/*\x20Collapse\x20left\x20panel\x20if\x20empty\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20#main\x20.main-left:empty\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20','hidden','green','all\x200.22s\x20cubic-bezier(.4,1.6,.5,1)','drag-over','offsetHeight','setAttribute','Unfavorite\x20⭐','removeEventListener','673362mQgEPr','forEach','placeholder','696750nfwvVG','insertBefore','head','rgba(200,40,40,0.97)','90blJgpq','width\x200.2s','Skin\x20UUID\x20or\x20URL','offsetWidth','#444','bold','Enter\x20new\x20profile\x20name:','mousemove','A\x20skin\x20with\x20this\x20name\x20already\x20exists\x20in\x20this\x20profile!','Showing\x20only\x20favorites','Duplicate\x20Profile\x20Name','column','length','left','rgba(76,175,80,0.18)','title','50%','Cannot\x20Delete\x20Profile','circle-grid-container','rgba(0,0,0,0.35)','rgba(255,255,255,0.12)','No\x20Profile\x20Selected','pointer','target','type','USE','gotaio_gallery_position','flex','opacity','No\x20profile\x20selected\x20to\x20share.','gap','account-gallery','Search\x20all\x20profiles\x20(currently\x20OFF)','center','inline-block','Import\x20Failed','drop-shadow(0\x200\x204px\x20#ffd600)','gotaio_skin_sort_order','Edit\x20profiles','90vw','selected','div','min','main-rb','114415rXpthz','28px\x2032px\x2022px\x2032px','circle-slot','add','accept','10px\x2024px','width','data-index','7px\x2018px','15px','zIndex','#skin-drag-clone','14px','name','mousedown','parse','files','userSelect','transform\x200.4s','revokeObjectURL','0\x202px\x208px\x20rgba(0,0,0,0.18)','style','innerWidth','10010','click','https://skin-data.gota.io/','_skinGalleryDragMouseup','122px','alignItems','0\x2014px\x200\x200','reverse','rotate(0deg)','input','border','undefined','Newest\x20First','stringify','rgba(211,47,47,0.18)','\x22<br><span\x20style=\x27color:#f55\x27>(This\x20cannot\x20be\x20undone.)</span>','loading','cursor','\x22?<br><span\x20style=\x27color:#f55\x27>(This\x20cannot\x20be\x20undone.)</span>','minWidth','#ffd600','Gallery','href','8px\x200\x204px\x2010px','uuid','map','Duplicate\x20Skin\x20Name','100vw','span','parentNode','\x20favorite','2px\x20solid\x20#4caf50','margin','2YgPvLx','blur','select','8px','use-button','newest','offsetTop','background','Enter\x20new\x20name\x20for\x20this\x20profile:','mouseenter','marginLeft','10px','skin-slot','getElementById','oldest','textContent','Profile\x20name','clientY','content-box','isArray','textAlign','writeText','400px','Are\x20you\x20sure\x20you\x20want\x20to\x20delete\x20the\x20profile\x20\x22','getItem','toLowerCase','rgba(0,0,0,0.2)','className'];_0x56c8=function(){return _0x545ae6;};return _0x56c8();}function _0x79a9(_0x168718,_0x1c84a8){const _0x56c823=_0x56c8();return _0x79a9=function(_0x79a9bc,_0x494ce8){_0x79a9bc=_0x79a9bc-0x133;let _0x2c7cda=_0x56c823[_0x79a9bc];return _0x2c7cda;},_0x79a9(_0x168718,_0x1c84a8);}(function(_0x4caad9,_0xd37241){const _0x3dd1b6=_0x79a9,_0x276814=_0x4caad9();while(!![]){try{const _0x589335=parseInt(_0x3dd1b6(0x15f))/0x1*(parseInt(_0x3dd1b6(0x197))/0x2)+parseInt(_0x3dd1b6(0x26b))/0x3+-parseInt(_0x3dd1b6(0x1c8))/0x4+parseInt(_0x3dd1b6(0x250))/0x5+-parseInt(_0x3dd1b6(0x1d6))/0x6*(-parseInt(_0x3dd1b6(0x251))/0x7)+parseInt(_0x3dd1b6(0x1d9))/0x8+-parseInt(_0x3dd1b6(0x133))/0x9*(parseInt(_0x3dd1b6(0x26e))/0xa);if(_0x589335===_0xd37241)break;else _0x276814['push'](_0x276814['shift']());}catch(_0x11fad9){_0x276814['push'](_0x276814['shift']());}}}(_0x56c8,0x30fb4),(function(){'use strict';const _0x290b86=_0x79a9;function _0x4f8396(){const _0x40b9be=_0x79a9;var _0x2a0584=document[_0x40b9be(0x1a4)](_0x40b9be(0x15e));if(_0x2a0584)_0x2a0584['remove']();var _0x2cdab9=document[_0x40b9be(0x1a4)]('GOT_gota-io_336x280');if(_0x2cdab9)_0x2cdab9[_0x40b9be(0x1d8)]();}document['addEventListener']('DOMContentLoaded',_0x4f8396);document['readyState']===_0x290b86(0x186)?document[_0x290b86(0x1c5)](_0x290b86(0x229),_0x4f8396):_0x4f8396();setInterval(_0x4f8396,0x7d0);const _0x4e6da6=document[_0x290b86(0x235)](_0x290b86(0x174));_0x4e6da6[_0x290b86(0x1a6)]=_0x290b86(0x262),document[_0x290b86(0x270)][_0x290b86(0x200)](_0x4e6da6);const _0x20ab3f=document['createElement'](_0x290b86(0x174));_0x20ab3f[_0x290b86(0x1a6)]=_0x290b86(0x233),document[_0x290b86(0x270)][_0x290b86(0x200)](_0x20ab3f);const _0x25936c=document['createElement'](_0x290b86(0x15c));_0x25936c['id']='skinBox';const _0x5556d5=document[_0x290b86(0x235)](_0x290b86(0x15c));_0x5556d5['className']=_0x290b86(0x145);const _0xdd42da=document[_0x290b86(0x235)](_0x290b86(0x15c));_0xdd42da[_0x290b86(0x1b2)]='circle-grid';for(let _0x18c73c=0x0;_0x18c73c<0x2c;_0x18c73c++){const _0xf81882=document[_0x290b86(0x235)]('div');_0xf81882[_0x290b86(0x1b2)]='skin-slot';const _0x710961=document[_0x290b86(0x235)](_0x290b86(0x15c));_0x710961[_0x290b86(0x1b2)]=_0x290b86(0x161),_0x710961[_0x290b86(0x174)][_0x290b86(0x165)]=_0x290b86(0x17a),_0x710961[_0x290b86(0x174)][_0x290b86(0x203)]=_0x290b86(0x17a);const _0x3f2c6d=document[_0x290b86(0x235)]('div');_0x3f2c6d[_0x290b86(0x1b2)]='info-row';const _0x264a48=document['createElement']('div');_0x264a48['className']=_0x290b86(0x202),_0x264a48['textContent']=_0x290b86(0x1e1)+(_0x18c73c+0x1);const _0x41c27e=document[_0x290b86(0x235)]('div');_0x41c27e[_0x290b86(0x1b2)]=_0x290b86(0x19b),_0x41c27e[_0x290b86(0x1a6)]=_0x290b86(0x14c),_0x3f2c6d['appendChild'](_0x264a48),_0x3f2c6d[_0x290b86(0x200)](_0x41c27e),_0xf81882[_0x290b86(0x200)](_0x710961),_0xf81882[_0x290b86(0x200)](_0x3f2c6d),_0xdd42da[_0x290b86(0x200)](_0xf81882);}_0x5556d5[_0x290b86(0x200)](_0xdd42da),_0x25936c[_0x290b86(0x200)](_0x5556d5),document[_0x290b86(0x209)][_0x290b86(0x200)](_0x25936c);const _0x3bb5ce=document[_0x290b86(0x235)]('div');_0x3bb5ce[_0x290b86(0x174)][_0x290b86(0x254)]=_0x290b86(0x14e),_0x3bb5ce[_0x290b86(0x174)][_0x290b86(0x17b)]=_0x290b86(0x154),_0x3bb5ce[_0x290b86(0x174)]['gap']=_0x290b86(0x201),_0x3bb5ce['style']['padding']=_0x290b86(0x1dd);const _0xad7b22=document[_0x290b86(0x235)]('span');_0xad7b22[_0x290b86(0x1a6)]='▼',_0xad7b22[_0x290b86(0x174)]['cursor']=_0x290b86(0x149),_0xad7b22[_0x290b86(0x174)][_0x290b86(0x210)]=_0x290b86(0x1d0),_0xad7b22['style'][_0x290b86(0x248)]='18px';const _0xf7855a=document[_0x290b86(0x235)](_0x290b86(0x192));_0xf7855a['textContent']=_0x290b86(0x226),_0xf7855a[_0x290b86(0x174)][_0x290b86(0x25a)]=_0x290b86(0x25c),_0xf7855a[_0x290b86(0x174)][_0x290b86(0x207)]=_0x290b86(0x138),_0xf7855a['style']['fontSize']=_0x290b86(0x168),_0x3bb5ce[_0x290b86(0x200)](_0xad7b22),_0x3bb5ce['appendChild'](_0xf7855a),_0x25936c['appendChild'](_0x3bb5ce);const _0x15ca62=document[_0x290b86(0x235)]('div');_0x15ca62['style'][_0x290b86(0x254)]=_0x290b86(0x14e),_0x15ca62[_0x290b86(0x174)][_0x290b86(0x151)]='8px',_0x15ca62[_0x290b86(0x174)][_0x290b86(0x17b)]=_0x290b86(0x154),_0x15ca62['style'][_0x290b86(0x1bf)]=_0x290b86(0x1a2),_0x15ca62['style']['background']=_0x290b86(0x1b1);const _0x2eb36e=document['createElement'](_0x290b86(0x17f));_0x2eb36e[_0x290b86(0x14b)]=_0x290b86(0x1c4),_0x2eb36e[_0x290b86(0x26d)]=_0x290b86(0x240),_0x2eb36e['style'][_0x290b86(0x14e)]='1',_0x2eb36e['style'][_0x290b86(0x1bf)]='4px',_0x2eb36e[_0x290b86(0x174)]['borderRadius']=_0x290b86(0x1bc),_0x2eb36e[_0x290b86(0x174)]['border']=_0x290b86(0x1f0);const _0x1f27f5=document[_0x290b86(0x235)](_0x290b86(0x17f));_0x1f27f5[_0x290b86(0x14b)]=_0x290b86(0x1c4),_0x1f27f5[_0x290b86(0x26d)]=_0x290b86(0x135),_0x1f27f5[_0x290b86(0x174)][_0x290b86(0x14e)]='1',_0x1f27f5[_0x290b86(0x174)][_0x290b86(0x1bf)]=_0x290b86(0x1bc),_0x1f27f5['style']['borderRadius']='4px',_0x1f27f5['style'][_0x290b86(0x180)]=_0x290b86(0x1f0);const _0x3d3a67=document[_0x290b86(0x235)]('button');_0x3d3a67[_0x290b86(0x1a6)]=_0x290b86(0x243),_0x3d3a67['style'][_0x290b86(0x1bf)]=_0x290b86(0x1fd),_0x3d3a67['style'][_0x290b86(0x224)]=_0x290b86(0x1bc),_0x3d3a67[_0x290b86(0x174)][_0x290b86(0x180)]='none',_0x3d3a67[_0x290b86(0x174)][_0x290b86(0x19e)]=_0x290b86(0x1b3),_0x3d3a67[_0x290b86(0x174)][_0x290b86(0x25a)]=_0x290b86(0x25c),_0x3d3a67['style'][_0x290b86(0x187)]='pointer',_0x15ca62[_0x290b86(0x200)](_0x2eb36e),_0x15ca62[_0x290b86(0x200)](_0x1f27f5),_0x15ca62[_0x290b86(0x200)](_0x3d3a67),_0x15ca62[_0x290b86(0x174)][_0x290b86(0x254)]=_0x290b86(0x14e),_0x25936c[_0x290b86(0x200)](_0x15ca62);let _0xfec753=![];_0x15ca62[_0x290b86(0x174)][_0x290b86(0x254)]=_0x290b86(0x21c),_0xad7b22[_0x290b86(0x174)][_0x290b86(0x24f)]=_0x290b86(0x1c9),_0x3bb5ce['addEventListener'](_0x290b86(0x177),()=>{const _0x1e72b6=_0x290b86;_0xfec753=!_0xfec753,_0x15ca62[_0x1e72b6(0x174)][_0x1e72b6(0x254)]=_0xfec753?_0x1e72b6(0x14e):_0x1e72b6(0x21c),_0xad7b22[_0x1e72b6(0x174)][_0x1e72b6(0x24f)]=_0xfec753?_0x1e72b6(0x17e):_0x1e72b6(0x1c9);});const _0x2854eb='gotaio_profiles_v2',_0x3fe993='gotaio_last_profile_idx';let _0x1cfd56=[],_0x2d9062=0x0;function _0x594364(){const _0x1fa190=_0x290b86,_0x1e6ceb=localStorage['getItem'](_0x2854eb);if(_0x1e6ceb)try{_0x1cfd56=JSON[_0x1fa190(0x16e)](_0x1e6ceb);if(!Array['isArray'](_0x1cfd56))throw new Error('Invalid\x20format');}catch(_0x4fcc68){_0x1cfd56=[{'name':'Default','skins':[]}];}else _0x1cfd56=[{'name':_0x1fa190(0x20a),'skins':[]}];if(!_0x1cfd56[_0x1fa190(0x13f)])_0x1cfd56=[{'name':_0x1fa190(0x20a),'skins':[]}];const _0x1c4ea9=parseInt(localStorage['getItem'](_0x3fe993),0xa);if(!isNaN(_0x1c4ea9)&&_0x1c4ea9>=0x0&&_0x1c4ea9<_0x1cfd56[_0x1fa190(0x13f)])_0x2d9062=_0x1c4ea9;else _0x2d9062>=_0x1cfd56[_0x1fa190(0x13f)]&&(_0x2d9062=0x0);}function _0x4b7b0f(){const _0x13c231=_0x290b86;localStorage[_0x13c231(0x247)](_0x2854eb,JSON[_0x13c231(0x183)](_0x1cfd56));}function _0x15cfa8(){const _0x1ab575=_0x290b86;localStorage[_0x1ab575(0x247)](_0x3fe993,_0x2d9062);}function _0x1a1550(){const _0xb535fb=_0x290b86;_0x251a59['innerHTML']='',_0x1cfd56[_0xb535fb(0x26c)]((_0x32f780,_0x4195af)=>{const _0x2009bc=_0xb535fb,_0x125dec=document[_0x2009bc(0x235)]('option');_0x125dec[_0x2009bc(0x260)]=_0x4195af,_0x125dec[_0x2009bc(0x1a6)]=_0x32f780['name'];if(_0x4195af===_0x2d9062)_0x125dec[_0x2009bc(0x15b)]=!![];_0x251a59[_0x2009bc(0x200)](_0x125dec);}),_0x15cfa8();}const _0x575055=document[_0x290b86(0x235)]('div');_0x575055[_0x290b86(0x174)][_0x290b86(0x1e8)]=_0x290b86(0x1ef),_0x575055[_0x290b86(0x174)][_0x290b86(0x25d)]=_0x290b86(0x1a2),_0x575055[_0x290b86(0x174)][_0x290b86(0x22f)]='10px',_0x575055[_0x290b86(0x174)][_0x290b86(0x169)]=_0x290b86(0x1f6),_0x575055[_0x290b86(0x174)]['color']=_0x290b86(0x25c);const _0x251a59=document[_0x290b86(0x235)](_0x290b86(0x199));_0x251a59['style']['padding']='2px',_0x251a59[_0x290b86(0x174)]['border']=_0x290b86(0x1c0),_0x251a59[_0x290b86(0x174)][_0x290b86(0x1b9)]=_0x290b86(0x206),_0x251a59[_0x290b86(0x174)][_0x290b86(0x25a)]='white',_0x251a59[_0x290b86(0x174)][_0x290b86(0x224)]=_0x290b86(0x1bc),_0x251a59[_0x290b86(0x174)][_0x290b86(0x248)]=_0x290b86(0x205);const _0x53d1f6=document[_0x290b86(0x235)]('option');_0x53d1f6[_0x290b86(0x260)]=_0x290b86(0x21d),_0x53d1f6[_0x290b86(0x1a6)]=_0x290b86(0x21d),_0x251a59[_0x290b86(0x200)](_0x53d1f6);const _0x55541c=document[_0x290b86(0x235)]('button');_0x55541c['textContent']=_0x290b86(0x1f4),_0x55541c[_0x290b86(0x142)]=_0x290b86(0x159),_0x55541c[_0x290b86(0x174)][_0x290b86(0x1a1)]=_0x290b86(0x21f),_0x55541c['style'][_0x290b86(0x19e)]='#4caf50',_0x55541c[_0x290b86(0x174)][_0x290b86(0x25a)]=_0x290b86(0x25c),_0x55541c[_0x290b86(0x174)][_0x290b86(0x180)]=_0x290b86(0x21c),_0x55541c[_0x290b86(0x174)][_0x290b86(0x224)]=_0x290b86(0x1bc),_0x55541c['style'][_0x290b86(0x187)]=_0x290b86(0x149),_0x55541c[_0x290b86(0x174)][_0x290b86(0x248)]='15px',_0x575055['appendChild'](_0x55541c);if(typeof addProfileButton!==_0x290b86(0x181)&&addProfileButton[_0x290b86(0x193)])addProfileButton[_0x290b86(0x1d8)]();if(typeof deleteProfileButton!==_0x290b86(0x181)&&deleteProfileButton[_0x290b86(0x193)])deleteProfileButton[_0x290b86(0x1d8)]();const _0x4a0d91=document['createElement'](_0x290b86(0x15c));_0x4a0d91['style']['position']=_0x290b86(0x1ef),_0x4a0d91[_0x290b86(0x174)][_0x290b86(0x25d)]=_0x290b86(0x21e),_0x4a0d91[_0x290b86(0x174)][_0x290b86(0x22f)]='0',_0x4a0d91[_0x290b86(0x174)][_0x290b86(0x19e)]=_0x290b86(0x1b6),_0x4a0d91[_0x290b86(0x174)][_0x290b86(0x25a)]=_0x290b86(0x25c),_0x4a0d91[_0x290b86(0x174)][_0x290b86(0x224)]='8px',_0x4a0d91[_0x290b86(0x174)][_0x290b86(0x22e)]=_0x290b86(0x173),_0x4a0d91[_0x290b86(0x174)][_0x290b86(0x1bf)]=_0x290b86(0x21b),_0x4a0d91[_0x290b86(0x174)][_0x290b86(0x254)]='none',_0x4a0d91['style'][_0x290b86(0x248)]=_0x290b86(0x16b),_0x575055[_0x290b86(0x200)](_0x4a0d91);const _0x5b8994=document['createElement'](_0x290b86(0x15c));_0x5b8994[_0x290b86(0x1a6)]=_0x290b86(0x1b8),_0x5b8994['style']['padding']=_0x290b86(0x1ca),_0x5b8994['style']['cursor']='pointer',_0x5b8994[_0x290b86(0x1c5)](_0x290b86(0x1a0),()=>_0x5b8994[_0x290b86(0x174)][_0x290b86(0x19e)]=_0x290b86(0x141)),_0x5b8994[_0x290b86(0x1c5)]('mouseleave',()=>_0x5b8994[_0x290b86(0x174)][_0x290b86(0x19e)]=''),_0x5b8994['addEventListener']('click',()=>{const _0x26e76b=_0x290b86;_0x4a0d91['style'][_0x26e76b(0x254)]=_0x26e76b(0x21c),_0xa4c917({'title':_0x26e76b(0x1b8),'message':_0x26e76b(0x139),'input':{'placeholder':_0x26e76b(0x1a7)},'confirmText':_0x26e76b(0x1d1),'cancelText':_0x26e76b(0x1eb),'onConfirm':_0x45d8a3=>{const _0x35a5fb=_0x26e76b;if(!_0x45d8a3)return;_0x1cfd56[_0x35a5fb(0x1f1)](_0x5508f1=>_0x5508f1[_0x35a5fb(0x16c)]===_0x45d8a3)&&_0xa4c917({'title':_0x35a5fb(0x13d),'message':_0x35a5fb(0x231),'confirmText':'OK','cancelText':null,'onConfirm':()=>{}}),_0x1cfd56[_0x35a5fb(0x1f2)]({'name':{'name':_0x45d8a3},'skins':[]}),_0x2d9062=_0x1cfd56[_0x35a5fb(0x13f)]-0x1,_0x4b7b0f(),_0x1a1550(),_0x1ffd9a();}});});const _0x2ee3a6=document['createElement'](_0x290b86(0x15c));_0x2ee3a6[_0x290b86(0x1a6)]=_0x290b86(0x22d),_0x2ee3a6[_0x290b86(0x174)][_0x290b86(0x1bf)]='8px\x2018px',_0x2ee3a6[_0x290b86(0x174)]['cursor']=_0x290b86(0x149),_0x2ee3a6['addEventListener']('mouseenter',()=>_0x2ee3a6[_0x290b86(0x174)][_0x290b86(0x19e)]='rgba(255,193,7,0.18)'),_0x2ee3a6[_0x290b86(0x1c5)](_0x290b86(0x1e3),()=>_0x2ee3a6['style'][_0x290b86(0x19e)]=''),_0x2ee3a6[_0x290b86(0x1c5)](_0x290b86(0x177),()=>{const _0x36d9b7=_0x290b86;_0x4a0d91[_0x36d9b7(0x174)][_0x36d9b7(0x254)]='none';const _0x29f66a=_0x1cfd56[_0x2d9062];if(!_0x29f66a)return;_0xa4c917({'title':_0x36d9b7(0x22d),'message':_0x36d9b7(0x19f),'input':{'placeholder':'New\x20profile\x20name','value':_0x29f66a[_0x36d9b7(0x16c)]},'confirmText':_0x36d9b7(0x1fb),'cancelText':_0x36d9b7(0x1eb),'onConfirm':_0x598aaa=>{const _0x12839d=_0x36d9b7;if(!_0x598aaa)return;_0x29f66a[_0x12839d(0x16c)]=_0x598aaa,_0x4b7b0f(),_0x1a1550(),_0x1ffd9a();}});});const _0x3cd0fd=document[_0x290b86(0x235)]('div');_0x3cd0fd[_0x290b86(0x1a6)]='Delete\x20Profile',_0x3cd0fd['style'][_0x290b86(0x1bf)]=_0x290b86(0x1ca),_0x3cd0fd[_0x290b86(0x174)][_0x290b86(0x187)]=_0x290b86(0x149),_0x3cd0fd[_0x290b86(0x1c5)](_0x290b86(0x1a0),()=>_0x3cd0fd[_0x290b86(0x174)][_0x290b86(0x19e)]=_0x290b86(0x184)),_0x3cd0fd[_0x290b86(0x1c5)](_0x290b86(0x1e3),()=>_0x3cd0fd[_0x290b86(0x174)][_0x290b86(0x19e)]='');if(_0x3cd0fd['_deleteListener'])_0x3cd0fd['removeEventListener'](_0x290b86(0x177),_0x3cd0fd[_0x290b86(0x1da)]);_0x3cd0fd[_0x290b86(0x1da)]=function(){const _0x2ddaed=_0x290b86;_0x4a0d91[_0x2ddaed(0x174)][_0x2ddaed(0x254)]=_0x2ddaed(0x21c),_0x2acdf2();},_0x3cd0fd[_0x290b86(0x1c5)](_0x290b86(0x177),_0x3cd0fd['_deleteListener']);const _0x43b996=document[_0x290b86(0x235)]('div');_0x43b996[_0x290b86(0x1a6)]=_0x290b86(0x25e),_0x43b996[_0x290b86(0x174)][_0x290b86(0x1bf)]=_0x290b86(0x1ca),_0x43b996['style']['cursor']='pointer',_0x43b996[_0x290b86(0x1c5)](_0x290b86(0x1a0),()=>_0x43b996['style'][_0x290b86(0x19e)]='rgba(33,150,243,0.18)'),_0x43b996[_0x290b86(0x1c5)](_0x290b86(0x1e3),()=>_0x43b996[_0x290b86(0x174)][_0x290b86(0x19e)]=''),_0x43b996[_0x290b86(0x1c5)](_0x290b86(0x177),()=>{const _0x1f361a=_0x290b86;_0x4a0d91[_0x1f361a(0x174)][_0x1f361a(0x254)]=_0x1f361a(0x21c);const _0x4a52c1=_0x1cfd56[_0x2d9062];if(!_0x4a52c1){_0xa4c917({'title':_0x1f361a(0x148),'message':_0x1f361a(0x150),'confirmText':'OK','cancelText':null,'onConfirm':()=>{}});return;}const _0x52984e=JSON['stringify']({'name':_0x4a52c1[_0x1f361a(0x16c)],'skins':_0x4a52c1[_0x1f361a(0x1db)]},null,0x2),_0x381131=new Blob([_0x52984e],{'type':'application/json'}),_0x27942d=URL[_0x1f361a(0x1cd)](_0x381131),_0x107c68=document[_0x1f361a(0x235)]('a');_0x107c68[_0x1f361a(0x18c)]=_0x27942d,_0x107c68['download']='gotaio_profile_'+_0x4a52c1[_0x1f361a(0x16c)]+_0x1f361a(0x24c),document[_0x1f361a(0x209)][_0x1f361a(0x200)](_0x107c68),_0x107c68[_0x1f361a(0x177)](),setTimeout(()=>{const _0x55be29=_0x1f361a;document[_0x55be29(0x209)][_0x55be29(0x24e)](_0x107c68),URL[_0x55be29(0x172)](_0x27942d);},0x64);});const _0x133fee=document[_0x290b86(0x235)](_0x290b86(0x15c));_0x133fee[_0x290b86(0x1a6)]='Import\x20Profiles',_0x133fee[_0x290b86(0x174)][_0x290b86(0x1bf)]='8px\x2018px',_0x133fee[_0x290b86(0x174)][_0x290b86(0x187)]=_0x290b86(0x149),_0x133fee['addEventListener'](_0x290b86(0x1a0),()=>_0x133fee[_0x290b86(0x174)]['background']=_0x290b86(0x204)),_0x133fee['addEventListener'](_0x290b86(0x1e3),()=>_0x133fee['style'][_0x290b86(0x19e)]=''),_0x133fee[_0x290b86(0x1c5)]('click',()=>{const _0x3dcc5e=_0x290b86;_0x4a0d91['style']['display']=_0x3dcc5e(0x21c);const _0x5c0efd=document['createElement'](_0x3dcc5e(0x17f));_0x5c0efd[_0x3dcc5e(0x14b)]=_0x3dcc5e(0x20d),_0x5c0efd[_0x3dcc5e(0x163)]=_0x3dcc5e(0x244),_0x5c0efd[_0x3dcc5e(0x174)][_0x3dcc5e(0x254)]=_0x3dcc5e(0x21c),_0x5c0efd[_0x3dcc5e(0x1c5)](_0x3dcc5e(0x1df),_0x327498=>{const _0x49887e=_0x3dcc5e,_0x4ef410=_0x5c0efd[_0x49887e(0x16f)][0x0];if(!_0x4ef410)return;const _0x92de4=new FileReader();_0x92de4[_0x49887e(0x1fa)]=function(_0x4b0e94){const _0x1994fe=_0x49887e;try{const _0x499f60=JSON['parse'](_0x4b0e94[_0x1994fe(0x14a)][_0x1994fe(0x241)]);if(!_0x499f60['name']||!Array[_0x1994fe(0x1aa)](_0x499f60[_0x1994fe(0x1db)]))throw new Error(_0x1994fe(0x24d));_0x1cfd56['some'](_0x221291=>_0x221291[_0x1994fe(0x16c)]===_0x499f60[_0x1994fe(0x16c)])&&_0xa4c917({'title':_0x1994fe(0x13d),'message':_0x1994fe(0x231),'confirmText':'OK','cancelText':null,'onConfirm':()=>{}}),_0x1cfd56['push']({'name':_0x499f60[_0x1994fe(0x16c)],'skins':_0x499f60['skins']}),_0x2d9062=_0x1cfd56[_0x1994fe(0x13f)]-0x1,_0x4b7b0f(),_0x1a1550(),_0x1ffd9a(),_0x59fcbf('Profile\x20imported!',_0x1994fe(0x264));}catch(_0x1fc32c){_0xa4c917({'title':_0x1994fe(0x156),'message':_0x1994fe(0x227)+_0x1fc32c['message'],'confirmText':'OK','cancelText':null,'onConfirm':()=>{}});}},_0x92de4['readAsText'](_0x4ef410);}),document[_0x3dcc5e(0x209)]['appendChild'](_0x5c0efd),_0x5c0efd[_0x3dcc5e(0x177)](),setTimeout(()=>document[_0x3dcc5e(0x209)][_0x3dcc5e(0x24e)](_0x5c0efd),0x3e8);}),_0x4a0d91[_0x290b86(0x200)](_0x5b8994),_0x4a0d91[_0x290b86(0x200)](_0x2ee3a6),_0x4a0d91[_0x290b86(0x200)](_0x3cd0fd),_0x4a0d91[_0x290b86(0x200)](_0x43b996),_0x4a0d91[_0x290b86(0x200)](_0x133fee),_0x55541c[_0x290b86(0x1c5)]('click',_0x5960f7=>{const _0x45687e=_0x290b86;_0x4a0d91[_0x45687e(0x174)]['display']=_0x4a0d91['style'][_0x45687e(0x254)]==='block'?_0x45687e(0x21c):_0x45687e(0x23d),_0x5960f7[_0x45687e(0x239)]();}),window[_0x290b86(0x1c5)]('mousedown',_0x27371c=>{const _0x59c47c=_0x290b86;!_0x4a0d91[_0x59c47c(0x20f)](_0x27371c['target'])&&_0x27371c[_0x59c47c(0x14a)]!==_0x55541c&&(_0x4a0d91[_0x59c47c(0x174)][_0x59c47c(0x254)]='none');}),_0x575055[_0x290b86(0x200)](_0x251a59),_0x575055[_0x290b86(0x200)](_0x55541c),_0x25936c[_0x290b86(0x200)](_0x575055),_0x251a59[_0x290b86(0x1c5)](_0x290b86(0x1df),()=>{const _0x3a3bb1=_0x290b86;_0x2d9062=parseInt(_0x251a59[_0x3a3bb1(0x260)],0xa),_0x15cfa8(),_0x1ffd9a();});function _0x2acdf2(){const _0x170f34=_0x290b86;if(_0x1cfd56['length']<=0x1){_0xa4c917({'title':_0x170f34(0x144),'message':'You\x20cannot\x20delete\x20the\x20last\x20profile.','confirmText':'OK','cancelText':null,'onConfirm':()=>{}});return;}_0xa4c917({'title':_0x170f34(0x228),'message':_0x170f34(0x1ae)+_0x1cfd56[_0x2d9062][_0x170f34(0x16c)]+_0x170f34(0x185),'confirmText':_0x170f34(0x23c),'cancelText':_0x170f34(0x1eb),'onConfirm':()=>{const _0x564c16=_0x170f34;_0x1cfd56['splice'](_0x2d9062,0x1);if(_0x2d9062>=_0x1cfd56[_0x564c16(0x13f)])_0x2d9062=_0x1cfd56[_0x564c16(0x13f)]-0x1;_0x4b7b0f(),_0x1a1550(),_0x1ffd9a();}});}_0x3cd0fd[_0x290b86(0x1c5)](_0x290b86(0x177),()=>{_0x2acdf2();}),_0x5b8994[_0x290b86(0x1c5)](_0x290b86(0x177),()=>{const _0x4e6835=_0x290b86;_0x4a0d91[_0x4e6835(0x174)][_0x4e6835(0x254)]=_0x4e6835(0x21c),_0xa4c917({'title':_0x4e6835(0x1b8),'message':_0x4e6835(0x139),'input':{'placeholder':_0x4e6835(0x1a7)},'confirmText':_0x4e6835(0x1d1),'cancelText':_0x4e6835(0x1eb),'onConfirm':_0x97ca02=>{const _0x23ae50=_0x4e6835;if(!_0x97ca02)return;_0x1cfd56[_0x23ae50(0x1f1)](_0x1fe688=>_0x1fe688[_0x23ae50(0x16c)]===_0x97ca02)&&_0xa4c917({'title':_0x23ae50(0x13d),'message':_0x23ae50(0x231),'confirmText':'OK','cancelText':null,'onConfirm':()=>{}}),_0x1cfd56['push']({'name':_0x97ca02,'skins':[]}),_0x2d9062=_0x1cfd56['length']-0x1,_0x4b7b0f(),_0x1a1550(),_0x1ffd9a();}});});const _0x4864d2=_0x290b86(0x158);let _0x3a25bf=localStorage[_0x290b86(0x1af)](_0x4864d2)||_0x290b86(0x19c);const _0x4da67c=document['createElement'](_0x290b86(0x15c));_0x4da67c[_0x290b86(0x174)][_0x290b86(0x187)]=_0x290b86(0x149),_0x4da67c[_0x290b86(0x174)]['color']=_0x290b86(0x25c),_0x4da67c[_0x290b86(0x174)]['fontWeight']=_0x290b86(0x138),_0x4da67c['style'][_0x290b86(0x248)]=_0x290b86(0x16b),_0x4da67c[_0x290b86(0x174)][_0x290b86(0x196)]=_0x290b86(0x18d);function _0x35c537(){const _0x3f77a9=_0x290b86;_0x4da67c[_0x3f77a9(0x1a6)]=_0x3a25bf===_0x3f77a9(0x19c)?'▼':'▲',_0x4da67c['title']=_0x3a25bf===_0x3f77a9(0x19c)?_0x3f77a9(0x182):_0x3f77a9(0x212);}_0x4da67c['addEventListener'](_0x290b86(0x177),()=>{const _0x1514e0=_0x290b86;_0x3a25bf=_0x3a25bf==='newest'?_0x1514e0(0x1a5):_0x1514e0(0x19c),localStorage[_0x1514e0(0x247)](_0x4864d2,_0x3a25bf),_0x35c537(),_0x1ffd9a();}),_0x35c537();const _0x4e7897=document[_0x290b86(0x235)](_0x290b86(0x17f));_0x4e7897[_0x290b86(0x14b)]=_0x290b86(0x1c4),_0x4e7897[_0x290b86(0x26d)]=_0x290b86(0x23e),_0x4e7897['style'][_0x290b86(0x165)]='90px',_0x4e7897[_0x290b86(0x174)][_0x290b86(0x1a1)]=_0x290b86(0x19a),_0x4e7897[_0x290b86(0x174)][_0x290b86(0x1bf)]='2px\x206px',_0x4e7897[_0x290b86(0x174)][_0x290b86(0x224)]=_0x290b86(0x21f),_0x4e7897[_0x290b86(0x174)][_0x290b86(0x180)]='1px\x20solid\x20#888',_0x4e7897[_0x290b86(0x174)][_0x290b86(0x248)]=_0x290b86(0x1c1),_0x4e7897['style']['background']=_0x290b86(0x147),_0x4e7897[_0x290b86(0x174)][_0x290b86(0x25a)]=_0x290b86(0x25c),_0x4e7897[_0x290b86(0x174)][_0x290b86(0x1fc)]='none',_0x4e7897[_0x290b86(0x174)][_0x290b86(0x210)]=_0x290b86(0x134);let _0x173034=![];const _0x5c24b7=document[_0x290b86(0x235)](_0x290b86(0x1ce));_0x5c24b7[_0x290b86(0x1e4)]='🌐',_0x5c24b7[_0x290b86(0x174)][_0x290b86(0x254)]='none',_0x5c24b7['style'][_0x290b86(0x19e)]='none',_0x5c24b7['style']['border']=_0x290b86(0x21c),_0x5c24b7[_0x290b86(0x174)][_0x290b86(0x248)]=_0x290b86(0x213),_0x5c24b7['style'][_0x290b86(0x187)]=_0x290b86(0x149),_0x5c24b7['style'][_0x290b86(0x1a1)]='4px',_0x5c24b7[_0x290b86(0x174)][_0x290b86(0x25a)]='#4cafef',_0x5c24b7[_0x290b86(0x142)]=_0x290b86(0x153);function _0x36e89a(){const _0x9c9789=_0x290b86;_0x5c24b7[_0x9c9789(0x142)]=_0x173034?'Searching\x20ALL\x20profiles\x20(click\x20to\x20search\x20only\x20current\x20profile)':_0x9c9789(0x153),_0x5c24b7[_0x9c9789(0x174)][_0x9c9789(0x1de)]=_0x173034?_0x9c9789(0x253):'grayscale(0.7)';}_0x5c24b7[_0x290b86(0x1c5)](_0x290b86(0x177),_0x3d1acc=>{const _0x2846e4=_0x290b86;_0x173034=!_0x173034,_0x36e89a(),_0x1ffd9a(),_0x3d1acc[_0x2846e4(0x239)]();}),_0x36e89a(),_0x5c24b7['addEventListener'](_0x290b86(0x16d),_0x229e89=>{const _0x26a046=_0x290b86;_0x229e89[_0x26a046(0x20e)](),_0x229e89[_0x26a046(0x239)](),_0x4e7897[_0x26a046(0x1f8)]();}),_0x4e7897['addEventListener'](_0x290b86(0x1f8),()=>{const _0x36d8b6=_0x290b86;_0x4e7897[_0x36d8b6(0x174)][_0x36d8b6(0x165)]=_0x36d8b6(0x1f3),_0x5c24b7[_0x36d8b6(0x174)][_0x36d8b6(0x254)]=_0x36d8b6(0x155);}),_0x4e7897[_0x290b86(0x1c5)](_0x290b86(0x198),_0x279550=>{setTimeout(()=>{const _0x33bf17=_0x79a9;document[_0x33bf17(0x1e2)]!==_0x5c24b7&&(_0x4e7897['style'][_0x33bf17(0x165)]=_0x33bf17(0x1d2),_0x5c24b7[_0x33bf17(0x174)][_0x33bf17(0x254)]=_0x33bf17(0x21c));},0x78);});const _0x533a7c=document['createElement']('div');_0x533a7c[_0x290b86(0x174)][_0x290b86(0x254)]=_0x290b86(0x14e),_0x533a7c[_0x290b86(0x174)][_0x290b86(0x17b)]=_0x290b86(0x154),_0x533a7c[_0x290b86(0x174)][_0x290b86(0x196)]=_0x290b86(0x18d),_0x533a7c[_0x290b86(0x200)](_0x4da67c),_0x533a7c['appendChild'](_0x4e7897),_0x533a7c[_0x290b86(0x200)](_0x5c24b7),_0x25936c[_0x290b86(0x26f)](_0x533a7c,_0x5556d5);let _0x289b1b=![];const _0xc327ea=document['createElement'](_0x290b86(0x1ce));_0xc327ea[_0x290b86(0x1e4)]='⭐',_0xc327ea[_0x290b86(0x142)]='Show\x20only\x20favorites',_0xc327ea[_0x290b86(0x174)]['background']=_0x290b86(0x21c),_0xc327ea[_0x290b86(0x174)][_0x290b86(0x180)]=_0x290b86(0x21c),_0xc327ea['style'][_0x290b86(0x248)]=_0x290b86(0x213),_0xc327ea[_0x290b86(0x174)]['margin']=_0x290b86(0x1c3),_0xc327ea['style'][_0x290b86(0x187)]=_0x290b86(0x149),_0xc327ea[_0x290b86(0x174)][_0x290b86(0x25a)]='#ffd600',_0xc327ea[_0x290b86(0x174)][_0x290b86(0x210)]=_0x290b86(0x1b4),_0xc327ea[_0x290b86(0x174)][_0x290b86(0x165)]='24px',_0xc327ea[_0x290b86(0x174)][_0x290b86(0x203)]='24px',_0xc327ea[_0x290b86(0x174)][_0x290b86(0x254)]=_0x290b86(0x14e),_0xc327ea['style'][_0x290b86(0x17b)]='center',_0xc327ea[_0x290b86(0x174)][_0x290b86(0x1bb)]=_0x290b86(0x154),_0xc327ea[_0x290b86(0x174)][_0x290b86(0x1bf)]='0',_0xc327ea[_0x290b86(0x174)]['boxSizing']=_0x290b86(0x1a9),_0xc327ea['addEventListener']('mousedown',_0x1ba906=>_0x1ba906[_0x290b86(0x239)]());function _0x5a06e5(){const _0x5ef35b=_0x290b86;_0xc327ea['style'][_0x5ef35b(0x1de)]=_0x289b1b?_0x5ef35b(0x157):'grayscale(0.7)',_0xc327ea['title']=_0x289b1b?_0x5ef35b(0x13c):_0x5ef35b(0x1cc);}_0xc327ea[_0x290b86(0x1c5)]('click',()=>{_0x289b1b=!_0x289b1b,_0x5a06e5(),_0x1ffd9a();}),_0x5a06e5(),_0x533a7c[_0x290b86(0x26f)](_0xc327ea,_0x4da67c);function _0x304170(_0x48859a){const _0x5c1bc9=_0x290b86,_0x123d75=document['querySelectorAll'](_0x5c1bc9(0x221));_0x123d75['forEach'](_0x449056=>{const _0x1b120a=_0x5c1bc9;if(_0x48859a)_0x449056[_0x1b120a(0x242)][_0x1b120a(0x162)](_0x1b120a(0x245));else _0x449056[_0x1b120a(0x242)][_0x1b120a(0x1d8)]('animated-bg');});}function _0x1ffd9a(){const _0x1e1d85=_0x290b86,_0x25d00e=document[_0x1e1d85(0x1a4)](_0x1e1d85(0x22a));if(_0x25d00e)_0x25d00e[_0x1e1d85(0x1d8)]();_0xdd42da[_0x1e1d85(0x1e4)]='';let _0x29465c;const _0x2f4bc3=_0x4e7897['value'][_0x1e1d85(0x257)]()['toLowerCase'](),_0x5a9607=!_0x2f4bc3&&!_0x173034;_0x173034&&_0x2f4bc3?_0x29465c=_0x1cfd56['flatMap'](_0x9f5ec3=>_0x9f5ec3[_0x1e1d85(0x1db)]||[]):_0x29465c=_0x1cfd56[_0x2d9062]?.['skins']||[];_0x289b1b&&(_0x29465c=_0x29465c[_0x1e1d85(0x1de)](_0x1e5698=>_0x1e5698[_0x1e1d85(0x215)]));_0x3a25bf===_0x1e1d85(0x19c)&&(_0x29465c=[..._0x29465c][_0x1e1d85(0x1dc)]()[_0x1e1d85(0x17d)]());_0x2f4bc3&&(_0x29465c=_0x29465c[_0x1e1d85(0x18f)]((_0x1d5d74,_0x68273e)=>{const _0x154ec5=_0x1e1d85,_0x4605ed=_0x1d5d74[_0x154ec5(0x16c)][_0x154ec5(0x1b0)]();let _0x4f078f=0x2;if(_0x4605ed===_0x2f4bc3)_0x4f078f=0x0;else{if(_0x4605ed['startsWith'](_0x2f4bc3))_0x4f078f=0x1;else{if(!_0x4605ed[_0x154ec5(0x230)](_0x2f4bc3))_0x4f078f=0x63;}}return{'skin':_0x1d5d74,'idx':_0x68273e,'relevance':_0x4f078f};})[_0x1e1d85(0x1de)](_0x1def4f=>_0x1def4f['relevance']!==0x63)[_0x1e1d85(0x1f5)]((_0x12fc28,_0x210ae2)=>{const _0x288fdb=_0x1e1d85;if(_0x12fc28[_0x288fdb(0x1ea)]!==_0x210ae2[_0x288fdb(0x1ea)])return _0x12fc28[_0x288fdb(0x1ea)]-_0x210ae2[_0x288fdb(0x1ea)];return _0x12fc28['idx']-_0x210ae2[_0x288fdb(0x249)];})[_0x1e1d85(0x18f)](_0x59953a=>_0x59953a['skin']));let _0x2930b3=null,_0x2b0a9f=null,_0x31d7ca=null,_0x3fa2de=![],_0x2aeb59=null,_0xbbf261=null,_0x3b79c5=null,_0x1af389=null,_0x2ba283={'x':0x0,'y':0x0},_0x2575b1={'x':0x0,'y':0x0},_0x21ed12=![];function _0x2a094f(){const _0x1daa4f=_0x1e1d85;clearTimeout(_0x2b0a9f),_0x2b0a9f=null,_0x21ed12=![],_0x3fa2de=![],_0x2930b3=null,_0x2aeb59=null;if(_0x31d7ca)_0x31d7ca[_0x1daa4f(0x174)][_0x1daa4f(0x23f)]='';if(_0x31d7ca)_0x31d7ca[_0x1daa4f(0x242)][_0x1daa4f(0x1d8)]('dragging');_0x31d7ca=null;if(_0x1af389)_0x1af389['classList'][_0x1daa4f(0x1d8)](_0x1daa4f(0x266));_0x1af389=null;if(_0x3b79c5)document['removeEventListener'](_0x1daa4f(0x13a),_0x3b79c5);_0x3b79c5=null,_0x2ba283={'x':0x0,'y':0x0},_0x2575b1={'x':0x0,'y':0x0},document['querySelectorAll'](_0x1daa4f(0x16a))[_0x1daa4f(0x26c)](_0x262c52=>_0x262c52[_0x1daa4f(0x1d8)]()),_0xbbf261=null,document[_0x1daa4f(0x1bd)](_0x1daa4f(0x1c6))['forEach'](_0xd94540=>{const _0x4ecfa3=_0x1daa4f;_0xd94540[_0x4ecfa3(0x174)][_0x4ecfa3(0x23f)]='',_0xd94540[_0x4ecfa3(0x242)][_0x4ecfa3(0x1d8)](_0x4ecfa3(0x259),'drag-over');}),document[_0x1daa4f(0x209)][_0x1daa4f(0x174)][_0x1daa4f(0x187)]='';}for(let _0x1c6cbc=0x0;_0x1c6cbc<_0x29465c['length'];_0x1c6cbc++){const _0x273b3c=_0x29465c[_0x1c6cbc],_0x425888=document[_0x1e1d85(0x235)](_0x1e1d85(0x15c));_0x425888['className']=_0x1e1d85(0x1a3);if(_0x5a9607){_0x425888[_0x1e1d85(0x268)](_0x1e1d85(0x166),_0x1c6cbc);let _0x4f32bf=![];_0x425888[_0x1e1d85(0x1c5)](_0x1e1d85(0x16d),_0x2a5282=>{const _0x1b1885=_0x1e1d85;if(_0x2a5282[_0x1b1885(0x1ce)]!==0x0)return;_0x4f32bf=!![],_0x21ed12=!![],_0x2a094f();const _0x210d73=_0x425888['getBoundingClientRect']();_0x2575b1={'x':_0x210d73[_0x1b1885(0x140)],'y':_0x210d73[_0x1b1885(0x25d)]},_0x2ba283={'x':_0x2a5282[_0x1b1885(0x1ee)]-_0x210d73[_0x1b1885(0x140)],'y':_0x2a5282[_0x1b1885(0x1a8)]-_0x210d73[_0x1b1885(0x25d)]},_0x2b0a9f=setTimeout(()=>{const _0x165572=_0x1b1885;if(!_0x4f32bf)return;_0x2930b3=_0x1c6cbc,_0x31d7ca=_0x425888,_0x3fa2de=!![],_0x425888[_0x165572(0x242)][_0x165572(0x162)](_0x165572(0x259)),_0xbbf261=_0x425888[_0x165572(0x20c)](!![]),_0xbbf261['id']=_0x165572(0x22a),_0xbbf261['style'][_0x165572(0x1e8)]=_0x165572(0x214),_0xbbf261[_0x165572(0x174)][_0x165572(0x1e5)]=_0x165572(0x21c),_0xbbf261[_0x165572(0x174)][_0x165572(0x169)]='100000',_0xbbf261[_0x165572(0x174)][_0x165572(0x14f)]='0.92',_0xbbf261[_0x165572(0x174)][_0x165572(0x24f)]=_0x165572(0x216),_0xbbf261[_0x165572(0x174)][_0x165572(0x22e)]=_0x165572(0x1fe),_0xbbf261['style'][_0x165572(0x210)]=_0x165572(0x21c),_0xbbf261[_0x165572(0x174)][_0x165572(0x140)]=_0x2a5282['clientX']-_0x2ba283['x']+'px',_0xbbf261['style'][_0x165572(0x25d)]=_0x2a5282['clientY']-_0x2ba283['y']+'px',document[_0x165572(0x209)][_0x165572(0x200)](_0xbbf261),_0x425888[_0x165572(0x174)]['visibility']=_0x165572(0x263),_0x3b79c5=function(_0x16462f){const _0x1539e6=_0x165572;if(!_0x3fa2de||!_0xbbf261)return;_0xbbf261[_0x1539e6(0x174)][_0x1539e6(0x140)]=_0x16462f[_0x1539e6(0x1ee)]-_0x2ba283['x']+'px',_0xbbf261['style']['top']=_0x16462f[_0x1539e6(0x1a8)]-_0x2ba283['y']+'px';const _0x1361be=document[_0x1539e6(0x1cf)](_0x16462f[_0x1539e6(0x1ee)],_0x16462f['clientY']),_0x1f2664=_0x1361be[_0x1539e6(0x23b)](_0x5aa050=>_0x5aa050['classList']&&_0x5aa050[_0x1539e6(0x242)][_0x1539e6(0x20f)](_0x1539e6(0x1a3))&&_0x5aa050!==_0x31d7ca);if(_0x1af389&&_0x1af389!==_0x1f2664)_0x1af389[_0x1539e6(0x242)][_0x1539e6(0x1d8)](_0x1539e6(0x266));_0x1f2664?(_0x1f2664[_0x1539e6(0x242)][_0x1539e6(0x162)]('drag-over'),_0x2aeb59=parseInt(_0x1f2664[_0x1539e6(0x1c2)]('data-index'),0xa),_0x1af389=_0x1f2664):(_0x2aeb59=null,_0x1af389=null);},document[_0x165572(0x1c5)](_0x165572(0x13a),_0x3b79c5),document[_0x165572(0x209)][_0x165572(0x174)][_0x165572(0x187)]=_0x165572(0x1f9);},0x78);}),_0x425888[_0x1e1d85(0x1c5)](_0x1e1d85(0x225),_0x2d31d1=>{_0x4f32bf=![],_0x21ed12=![],clearTimeout(_0x2b0a9f),_0x3fa2de?_0x29a45c(_0x2d31d1):_0x2a094f();}),_0x425888[_0x1e1d85(0x1c5)](_0x1e1d85(0x1e3),_0x7974be=>{_0x4f32bf=![],clearTimeout(_0x2b0a9f);if(!_0x3fa2de)_0x2a094f();});}const _0x9b4f9d=document[_0x1e1d85(0x235)](_0x1e1d85(0x15c));_0x9b4f9d[_0x1e1d85(0x1b2)]='circle-slot'+(_0x273b3c[_0x1e1d85(0x215)]?_0x1e1d85(0x194):''),_0x9b4f9d['style']['display']=_0x1e1d85(0x14e),_0x9b4f9d[_0x1e1d85(0x174)]['alignItems']=_0x1e1d85(0x154),_0x9b4f9d[_0x1e1d85(0x174)]['justifyContent']=_0x1e1d85(0x154),_0x9b4f9d[_0x1e1d85(0x174)]['overflow']=_0x1e1d85(0x263),_0x9b4f9d['style'][_0x1e1d85(0x1e8)]=_0x1e1d85(0x1e7);const _0x5f2f9d=document[_0x1e1d85(0x235)](_0x1e1d85(0x237));_0x5f2f9d[_0x1e1d85(0x261)]=_0x1e1d85(0x178)+_0x273b3c[_0x1e1d85(0x18e)]+'.png',_0x5f2f9d['alt']=_0x273b3c[_0x1e1d85(0x16c)],_0x5f2f9d['style']['width']=_0x1e1d85(0x218),_0x5f2f9d['style'][_0x1e1d85(0x203)]=_0x1e1d85(0x218),_0x5f2f9d[_0x1e1d85(0x174)][_0x1e1d85(0x1c7)]=_0x1e1d85(0x223),_0x5f2f9d['onerror']=function(){const _0x236412=_0x1e1d85;_0x5f2f9d[_0x236412(0x174)][_0x236412(0x254)]=_0x236412(0x21c);},_0x9b4f9d[_0x1e1d85(0x200)](_0x5f2f9d);if(_0x273b3c[_0x1e1d85(0x215)]){const _0x402888=document[_0x1e1d85(0x235)](_0x1e1d85(0x192));_0x402888[_0x1e1d85(0x1b2)]=_0x1e1d85(0x211),_0x402888[_0x1e1d85(0x1a6)]='⭐',_0x9b4f9d[_0x1e1d85(0x200)](_0x402888);}const _0x3788a9=document[_0x1e1d85(0x235)](_0x1e1d85(0x15c));_0x3788a9[_0x1e1d85(0x1b2)]='info-row';const _0x3a46a0=document[_0x1e1d85(0x235)](_0x1e1d85(0x15c));_0x3a46a0[_0x1e1d85(0x1b2)]=_0x1e1d85(0x202),_0x3a46a0[_0x1e1d85(0x1a6)]=_0x273b3c[_0x1e1d85(0x16c)],_0x3a46a0[_0x1e1d85(0x142)]=_0x1e1d85(0x1e0),_0x3a46a0[_0x1e1d85(0x1c5)](_0x1e1d85(0x177),()=>{const _0x3d6139=_0x1e1d85;navigator[_0x3d6139(0x1e9)][_0x3d6139(0x1ac)](_0x273b3c[_0x3d6139(0x16c)]),_0x3a46a0[_0x3d6139(0x242)][_0x3d6139(0x162)](_0x3d6139(0x1b7)),_0x3a46a0['textContent']='Copied!',setTimeout(()=>{const _0x34a74a=_0x3d6139;_0x3a46a0['classList'][_0x34a74a(0x1d8)](_0x34a74a(0x1b7)),_0x3a46a0[_0x34a74a(0x1a6)]=_0x273b3c[_0x34a74a(0x16c)];},0x384);}),_0x3788a9[_0x1e1d85(0x200)](_0x3a46a0),_0x425888[_0x1e1d85(0x200)](_0x9b4f9d),_0x425888['appendChild'](_0x3788a9),_0xdd42da[_0x1e1d85(0x200)](_0x425888),_0x425888[_0x1e1d85(0x174)]['perspective']=_0x1e1d85(0x1ad);const _0x487338=document['createElement'](_0x1e1d85(0x15c));_0x487338[_0x1e1d85(0x174)][_0x1e1d85(0x165)]=_0x1e1d85(0x17a),_0x487338['style'][_0x1e1d85(0x203)]='122px',_0x487338['style'][_0x1e1d85(0x1e8)]=_0x1e1d85(0x1e7),_0x487338[_0x1e1d85(0x174)][_0x1e1d85(0x210)]=_0x1e1d85(0x171),_0x487338['style']['transformStyle']=_0x1e1d85(0x1b5);const _0x47d9e5=document[_0x1e1d85(0x235)](_0x1e1d85(0x15c));_0x47d9e5[_0x1e1d85(0x174)][_0x1e1d85(0x1e8)]=_0x1e1d85(0x1ef),_0x47d9e5[_0x1e1d85(0x174)][_0x1e1d85(0x165)]=_0x1e1d85(0x218),_0x47d9e5['style'][_0x1e1d85(0x203)]=_0x1e1d85(0x218),_0x47d9e5[_0x1e1d85(0x174)][_0x1e1d85(0x25b)]=_0x1e1d85(0x263),_0x47d9e5[_0x1e1d85(0x200)](_0x5f2f9d);if(_0x273b3c['favorite']){const _0x4f529b=document[_0x1e1d85(0x235)]('span');_0x4f529b[_0x1e1d85(0x1b2)]='favorite-star',_0x4f529b[_0x1e1d85(0x1a6)]='⭐',_0x47d9e5[_0x1e1d85(0x200)](_0x4f529b);}const _0x409aa4=document['createElement']('div');_0x409aa4[_0x1e1d85(0x174)][_0x1e1d85(0x1e8)]='absolute',_0x409aa4[_0x1e1d85(0x174)][_0x1e1d85(0x165)]=_0x1e1d85(0x218),_0x409aa4[_0x1e1d85(0x174)][_0x1e1d85(0x203)]=_0x1e1d85(0x218),_0x409aa4[_0x1e1d85(0x174)][_0x1e1d85(0x19e)]=_0x1e1d85(0x217),_0x409aa4['style'][_0x1e1d85(0x254)]=_0x1e1d85(0x14e),_0x409aa4['style'][_0x1e1d85(0x219)]=_0x1e1d85(0x13e),_0x409aa4[_0x1e1d85(0x174)][_0x1e1d85(0x17b)]=_0x1e1d85(0x154),_0x409aa4[_0x1e1d85(0x174)][_0x1e1d85(0x1bb)]=_0x1e1d85(0x154),_0x409aa4[_0x1e1d85(0x174)]['backfaceVisibility']=_0x1e1d85(0x263),_0x409aa4[_0x1e1d85(0x174)][_0x1e1d85(0x24f)]=_0x1e1d85(0x234);const _0x1d9f52=document[_0x1e1d85(0x235)]('button');_0x1d9f52[_0x1e1d85(0x1a6)]=_0x1e1d85(0x23c),_0x1d9f52[_0x1e1d85(0x174)][_0x1e1d85(0x1bf)]=_0x1e1d85(0x1ca),_0x1d9f52[_0x1e1d85(0x174)][_0x1e1d85(0x19e)]=_0x1e1d85(0x1f7),_0x1d9f52[_0x1e1d85(0x174)]['color']=_0x1e1d85(0x25c),_0x1d9f52['style'][_0x1e1d85(0x180)]=_0x1e1d85(0x21c),_0x1d9f52[_0x1e1d85(0x174)][_0x1e1d85(0x224)]=_0x1e1d85(0x201),_0x1d9f52[_0x1e1d85(0x174)][_0x1e1d85(0x187)]=_0x1e1d85(0x149),_0x1d9f52[_0x1e1d85(0x174)][_0x1e1d85(0x1ed)]=_0x1e1d85(0x19a),_0x1d9f52['addEventListener']('click',_0x31668b=>{const _0xe4b8ba=_0x1e1d85;_0x29465c[_0xe4b8ba(0x232)](_0x1c6cbc,0x1),_0x4b7b0f(),_0x1ffd9a(),_0x59fcbf('Skin\x20deleted!','red'),_0x31668b[_0xe4b8ba(0x239)]();}),_0x409aa4[_0x1e1d85(0x200)](_0x1d9f52);const _0x3965af=document[_0x1e1d85(0x235)](_0x1e1d85(0x1ce));_0x3965af['textContent']=_0x273b3c[_0x1e1d85(0x215)]?_0x1e1d85(0x269):_0x1e1d85(0x222),_0x3965af['style'][_0x1e1d85(0x1bf)]=_0x1e1d85(0x167),_0x3965af[_0x1e1d85(0x174)][_0x1e1d85(0x19e)]=_0x273b3c[_0x1e1d85(0x215)]?_0x1e1d85(0x18a):_0x1e1d85(0x137),_0x3965af['style'][_0x1e1d85(0x25a)]=_0x273b3c['favorite']?_0x1e1d85(0x22b):_0x1e1d85(0x25c),_0x3965af[_0x1e1d85(0x174)][_0x1e1d85(0x180)]='none',_0x3965af[_0x1e1d85(0x174)]['borderRadius']=_0x1e1d85(0x201),_0x3965af['style'][_0x1e1d85(0x187)]=_0x1e1d85(0x149),_0x3965af[_0x1e1d85(0x1c5)](_0x1e1d85(0x177),_0xa74dc6=>{const _0x4ffcb9=_0x1e1d85;_0x273b3c[_0x4ffcb9(0x215)]=!_0x273b3c[_0x4ffcb9(0x215)],_0x4b7b0f(),_0x1ffd9a(),_0xa74dc6['stopPropagation']();}),_0x409aa4[_0x1e1d85(0x200)](_0x3965af),_0x487338[_0x1e1d85(0x200)](_0x47d9e5),_0x487338[_0x1e1d85(0x200)](_0x409aa4);let _0x23d2a5=![];_0x487338['addEventListener'](_0x1e1d85(0x177),_0x5cd548=>{const _0xd85e22=_0x1e1d85;_0x23d2a5=!_0x23d2a5,_0x487338[_0xd85e22(0x174)][_0xd85e22(0x24f)]=_0x23d2a5?'rotateY(180deg)':'',_0x5cd548[_0xd85e22(0x239)]();}),_0x9b4f9d[_0x1e1d85(0x1e4)]='',_0x9b4f9d[_0x1e1d85(0x200)](_0x487338);}_0x304170(_0x25936c[_0x1e1d85(0x174)][_0x1e1d85(0x254)]!==_0x1e1d85(0x21c));!window[_0x1e1d85(0x179)]&&(window[_0x1e1d85(0x179)]=!![],document[_0x1e1d85(0x1c5)]('mouseup',function(_0x4c2a9c){_0x21ed12=![],clearTimeout(_0x2b0a9f),_0x3fa2de?_0x29a45c(_0x4c2a9c):_0x2a094f();}));function _0x29a45c(_0x296ddb){const _0x3bd39b=_0x1e1d85;_0x3fa2de=![];if(_0x31d7ca)_0x31d7ca[_0x3bd39b(0x242)][_0x3bd39b(0x1d8)](_0x3bd39b(0x259));document['body'][_0x3bd39b(0x174)][_0x3bd39b(0x187)]='',document[_0x3bd39b(0x26a)](_0x3bd39b(0x13a),_0x3b79c5);if(_0x1af389)_0x1af389[_0x3bd39b(0x242)][_0x3bd39b(0x1d8)]('drag-over');let _0x1876e5=_0x2930b3!==null&&_0x2aeb59!==null&&_0x2930b3!==_0x2aeb59;if(_0xbbf261){if(!_0x1876e5)_0xbbf261[_0x3bd39b(0x174)][_0x3bd39b(0x210)]=_0x3bd39b(0x265),_0xbbf261[_0x3bd39b(0x174)]['left']=_0x2575b1['x']+'px',_0xbbf261['style'][_0x3bd39b(0x25d)]=_0x2575b1['y']+'px',setTimeout(()=>{const _0x452a47=_0x3bd39b;if(_0xbbf261&&_0xbbf261[_0x452a47(0x193)])_0xbbf261[_0x452a47(0x1d8)]();},0xdc);else{if(_0xbbf261[_0x3bd39b(0x193)])_0xbbf261[_0x3bd39b(0x1d8)]();}}if(_0x31d7ca)_0x31d7ca[_0x3bd39b(0x174)][_0x3bd39b(0x23f)]='';if(_0x1876e5){if(!_0x2f4bc3&&!_0x173034){const _0x7d28a=_0x1cfd56[_0x2d9062][_0x3bd39b(0x1db)],[_0x44012a]=_0x7d28a[_0x3bd39b(0x232)](_0x2930b3,0x1);_0x7d28a[_0x3bd39b(0x232)](_0x2aeb59,0x0,_0x44012a),_0x4b7b0f(),_0x1ffd9a();}}_0x2a094f();}}const _0x22c78a=document[_0x290b86(0x235)](_0x290b86(0x15c));_0x22c78a[_0x290b86(0x174)][_0x290b86(0x1e8)]=_0x290b86(0x214),_0x22c78a['style']['top']=_0x290b86(0x1be),_0x22c78a['style'][_0x290b86(0x140)]=_0x290b86(0x143),_0x22c78a[_0x290b86(0x174)][_0x290b86(0x24f)]='translateX(-50%)',_0x22c78a[_0x290b86(0x174)][_0x290b86(0x19e)]=_0x290b86(0x1d4),_0x22c78a[_0x290b86(0x174)][_0x290b86(0x25a)]=_0x290b86(0x25c),_0x22c78a[_0x290b86(0x174)]['padding']=_0x290b86(0x164),_0x22c78a['style']['borderRadius']=_0x290b86(0x19a),_0x22c78a[_0x290b86(0x174)][_0x290b86(0x248)]='16px',_0x22c78a[_0x290b86(0x174)]['fontWeight']=_0x290b86(0x138),_0x22c78a['style'][_0x290b86(0x22e)]='0\x202px\x208px\x20rgba(0,0,0,0.2)',_0x22c78a[_0x290b86(0x174)][_0x290b86(0x169)]=_0x290b86(0x176),_0x22c78a['style']['display']=_0x290b86(0x21c),document[_0x290b86(0x209)][_0x290b86(0x200)](_0x22c78a);function _0x59fcbf(_0x288ee5,_0x44b7a2=_0x290b86(0x264)){const _0x1d4461=_0x290b86;_0x22c78a[_0x1d4461(0x1a6)]=_0x288ee5,_0x22c78a['style'][_0x1d4461(0x254)]=_0x1d4461(0x23d),_0x22c78a[_0x1d4461(0x174)][_0x1d4461(0x19e)]=_0x44b7a2===_0x1d4461(0x1cb)?_0x1d4461(0x271):_0x1d4461(0x1d4),setTimeout(()=>{const _0x4fe78d=_0x1d4461;_0x22c78a[_0x4fe78d(0x174)][_0x4fe78d(0x254)]=_0x4fe78d(0x21c);},0x4b0);}_0x3d3a67[_0x290b86(0x1c5)](_0x290b86(0x177),()=>{const _0x5e0141=_0x290b86,_0x234e18=_0x2eb36e[_0x5e0141(0x260)][_0x5e0141(0x257)]();let _0x2694c0=_0x1f27f5[_0x5e0141(0x260)]['trim']();if(!_0x234e18||!_0x2694c0)return;const _0x22d63a=(_0x1cfd56[_0x2d9062]['skins']||[])[_0x5e0141(0x1f1)](_0x4cf19a=>_0x4cf19a[_0x5e0141(0x16c)][_0x5e0141(0x1b0)]()===_0x234e18[_0x5e0141(0x1b0)]());if(_0x22d63a){_0xa4c917({'title':_0x5e0141(0x190),'message':_0x5e0141(0x13b),'confirmText':'OK','cancelText':null,'onConfirm':()=>{}});return;}const _0x5b8d45=_0x2694c0['match'](/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/);if(_0x5b8d45)_0x2694c0=_0x5b8d45[0x0][_0x5e0141(0x257)]();else _0x2694c0=_0x2694c0[_0x5e0141(0x257)]();_0x1cfd56[_0x2d9062]['skins'][_0x5e0141(0x1f2)]({'name':_0x234e18,'uuid':_0x2694c0}),_0x4b7b0f(),_0x2eb36e[_0x5e0141(0x260)]='',_0x1f27f5[_0x5e0141(0x260)]='',_0x1ffd9a(),_0x59fcbf(_0x5e0141(0x1ec));});const _0x79dc6c=_0x290b86(0x14d);function _0x373180(){const _0x119eae=_0x290b86,_0x4e3e93=localStorage['getItem'](_0x79dc6c);if(_0x4e3e93)try{const {left:_0x3b2000,top:_0x49af47,width:_0xc26835,height:_0x430761}=JSON[_0x119eae(0x16e)](_0x4e3e93);if(_0x3b2000!==undefined)_0x25936c[_0x119eae(0x174)][_0x119eae(0x140)]=_0x3b2000+'px';if(_0x49af47!==undefined)_0x25936c[_0x119eae(0x174)]['top']=_0x49af47+'px';if(_0xc26835!==undefined)_0x25936c['style'][_0x119eae(0x165)]=_0xc26835+'px';if(_0x430761!==undefined)_0x25936c['style']['height']=_0x430761+'px';}catch(_0x427c39){}else _0x25936c['style'][_0x119eae(0x140)]='181px',_0x25936c['style'][_0x119eae(0x25d)]=_0x119eae(0x25f),_0x25936c[_0x119eae(0x174)]['width']='600px',_0x25936c[_0x119eae(0x174)][_0x119eae(0x203)]=_0x119eae(0x258);}function _0x98235a(_0x3012fe,_0x5b50d9){const _0x448092=_0x290b86;localStorage[_0x448092(0x247)](_0x79dc6c,JSON[_0x448092(0x183)]({'left':_0x3012fe,'top':_0x5b50d9,'width':_0x25936c[_0x448092(0x136)],'height':_0x25936c[_0x448092(0x267)]}));}_0x594364(),_0x1a1550(),_0x1ffd9a();const _0x33959b=document[_0x290b86(0x235)]('div');_0x33959b[_0x290b86(0x174)][_0x290b86(0x1e8)]=_0x290b86(0x1ef),_0x33959b[_0x290b86(0x174)][_0x290b86(0x25d)]='0',_0x33959b[_0x290b86(0x174)][_0x290b86(0x140)]='0',_0x33959b[_0x290b86(0x174)][_0x290b86(0x165)]=_0x290b86(0x218),_0x33959b[_0x290b86(0x174)][_0x290b86(0x203)]='100%',_0x33959b[_0x290b86(0x174)][_0x290b86(0x169)]='10005',_0x33959b[_0x290b86(0x174)][_0x290b86(0x1e5)]=_0x290b86(0x21c),_0x33959b['style'][_0x290b86(0x180)]=_0x290b86(0x1ba),_0x33959b[_0x290b86(0x174)][_0x290b86(0x224)]=_0x290b86(0x205),_0x25936c[_0x290b86(0x200)](_0x33959b);let _0xd61151=![],_0x553d07,_0x38bfc6,_0x12495f,_0x33bae5;_0x25936c[_0x290b86(0x1c5)](_0x290b86(0x16d),_0x55cda3=>{const _0x1053a6=_0x290b86,_0x30bd57=_0x25936c[_0x1053a6(0x24b)](),_0x334f93=0xa,_0x184487=_0x55cda3['clientX']-_0x30bd57[_0x1053a6(0x140)]<_0x334f93||_0x30bd57[_0x1053a6(0x22f)]-_0x55cda3[_0x1053a6(0x1ee)]<_0x334f93||_0x55cda3[_0x1053a6(0x1a8)]-_0x30bd57[_0x1053a6(0x25d)]<_0x334f93||_0x30bd57[_0x1053a6(0x1e6)]-_0x55cda3[_0x1053a6(0x1a8)]<_0x334f93;_0x184487&&(_0xd61151=!![],_0x553d07=_0x55cda3[_0x1053a6(0x1ee)],_0x38bfc6=_0x55cda3['clientY'],_0x12495f=_0x25936c['offsetLeft'],_0x33bae5=_0x25936c[_0x1053a6(0x19d)],_0x33959b[_0x1053a6(0x174)][_0x1053a6(0x180)]=_0x1053a6(0x195),document[_0x1053a6(0x209)]['style'][_0x1053a6(0x170)]=_0x1053a6(0x21c),_0x55cda3[_0x1053a6(0x20e)]());}),document[_0x290b86(0x1c5)](_0x290b86(0x13a),_0xbb677b=>{const _0x4130e9=_0x290b86;if(!_0xd61151)return;const _0x54b506=_0xbb677b[_0x4130e9(0x1ee)]-_0x553d07,_0xb209f3=_0xbb677b[_0x4130e9(0x1a8)]-_0x38bfc6;_0x25936c[_0x4130e9(0x174)]['left']=_0x12495f+_0x54b506+'px',_0x25936c[_0x4130e9(0x174)][_0x4130e9(0x25d)]=_0x33bae5+_0xb209f3+'px';}),document['addEventListener']('mouseup',()=>{const _0x1eb84d=_0x290b86;_0xd61151&&(_0xd61151=![],_0x33959b[_0x1eb84d(0x174)]['border']='2px\x20solid\x20transparent',document['body']['style'][_0x1eb84d(0x170)]='',_0x98235a(_0x25936c[_0x1eb84d(0x22c)],_0x25936c[_0x1eb84d(0x19d)]));}),_0x25936c['addEventListener'](_0x290b86(0x13a),_0xb20480=>{const _0x368b5b=_0x290b86,_0x516143=_0x25936c['getBoundingClientRect'](),_0x1c456f=0xa,_0x376343=_0xb20480[_0x368b5b(0x1ee)]-_0x516143[_0x368b5b(0x140)]<_0x1c456f||_0x516143[_0x368b5b(0x22f)]-_0xb20480['clientX']<_0x1c456f||_0xb20480[_0x368b5b(0x1a8)]-_0x516143[_0x368b5b(0x25d)]<_0x1c456f||_0x516143[_0x368b5b(0x1e6)]-_0xb20480[_0x368b5b(0x1a8)]<_0x1c456f;_0x376343?_0x25936c[_0x368b5b(0x174)][_0x368b5b(0x187)]='move':_0x25936c[_0x368b5b(0x174)]['cursor']='';}),_0x25936c[_0x290b86(0x1c5)](_0x290b86(0x1e3),()=>{const _0x230aa1=_0x290b86;_0x25936c['style'][_0x230aa1(0x187)]='';}),_0x373180();function _0x561147(){const _0x32c6b0=_0x290b86,_0x5e85da=document['getElementById']('main');_0x5e85da&&_0x5e85da[_0x32c6b0(0x174)]['display']!==_0x32c6b0(0x21c)?_0x25936c[_0x32c6b0(0x174)]['display']='':_0x25936c[_0x32c6b0(0x174)]['display']=_0x32c6b0(0x21c);}(function _0x5be377(){const _0x310ed0=_0x290b86,_0x3515f1=document[_0x310ed0(0x1a4)](_0x310ed0(0x1d7));if(_0x3515f1){const _0x1b9b1c=window[_0x310ed0(0x220)](_0x3515f1),_0x3fbef7=_0x1b9b1c['display']!==_0x310ed0(0x21c)&&_0x1b9b1c['opacity']==='1';_0x25936c[_0x310ed0(0x174)][_0x310ed0(0x254)]=_0x3fbef7?'':_0x310ed0(0x21c);}else _0x25936c['style'][_0x310ed0(0x254)]=_0x310ed0(0x21c);requestAnimationFrame(_0x5be377);}());let _0x147df1=![];function _0x284406(){const _0x1c0d7f=_0x290b86,_0xeebc5d=document['getElementById']('main'),_0x3aafee=_0xeebc5d?window[_0x1c0d7f(0x220)](_0xeebc5d):null,_0x205a03=_0xeebc5d&&_0x3aafee['display']!=='none'&&_0x3aafee['opacity']==='1';_0x25936c['style'][_0x1c0d7f(0x254)]=_0x147df1&&_0x205a03?'':_0x1c0d7f(0x21c),_0x304170(_0x147df1&&_0x205a03);}function _0x3273d6(){const _0x34643a=_0x290b86,_0x178fed=document['getElementById']('account-profile');if(_0x178fed&&!document[_0x34643a(0x1a4)](_0x34643a(0x152))){const _0x3f0ad7=document[_0x34643a(0x235)](_0x34643a(0x1ce));_0x3f0ad7['id']=_0x34643a(0x152),_0x3f0ad7[_0x34643a(0x1b2)]=_0x178fed['className'],_0x3f0ad7[_0x34643a(0x1a6)]=_0x34643a(0x18b),_0x3f0ad7[_0x34643a(0x174)][_0x34643a(0x256)]=_0x178fed[_0x34643a(0x174)]['cssText'],_0x3f0ad7[_0x34643a(0x1c5)](_0x34643a(0x177),function(){_0x147df1=!_0x147df1,_0x284406();}),_0x178fed['parentNode'][_0x34643a(0x26f)](_0x3f0ad7,_0x178fed);}const _0x33388c=document['getElementById'](_0x34643a(0x1d5));if(_0x33388c&&!document['getElementById']('account-gallery-login')){const _0x55758f=document[_0x34643a(0x235)](_0x34643a(0x1ce));_0x55758f['id']=_0x34643a(0x208),_0x55758f[_0x34643a(0x1b2)]=_0x33388c[_0x34643a(0x1b2)],_0x55758f[_0x34643a(0x1a6)]=_0x34643a(0x18b),_0x55758f[_0x34643a(0x174)]['cssText']=_0x33388c[_0x34643a(0x174)][_0x34643a(0x256)],_0x55758f[_0x34643a(0x1c5)](_0x34643a(0x177),function(){_0x147df1=!_0x147df1,_0x284406();}),_0x33388c['parentNode'][_0x34643a(0x26f)](_0x55758f,_0x33388c['nextSibling']);}}(function _0x2c96d9(){_0x3273d6(),requestAnimationFrame(_0x2c96d9);}(),function _0x49dc47(){_0x284406(),requestAnimationFrame(_0x49dc47);}());const _0x20008b=document[_0x290b86(0x235)]('div');_0x20008b['className']=_0x290b86(0x255),_0x25936c[_0x290b86(0x200)](_0x20008b);let _0x6ba842=![],_0x4da426,_0x3d59ee,_0x597fef,_0x2f0873;_0x20008b[_0x290b86(0x1c5)]('mousedown',_0x5daf24=>{const _0x5d9cde=_0x290b86;_0x6ba842=!![],_0x4da426=_0x5daf24[_0x5d9cde(0x1ee)],_0x3d59ee=_0x5daf24[_0x5d9cde(0x1a8)],_0x597fef=_0x25936c[_0x5d9cde(0x136)],_0x2f0873=_0x25936c[_0x5d9cde(0x267)],document[_0x5d9cde(0x209)][_0x5d9cde(0x174)]['userSelect']=_0x5d9cde(0x21c),_0x5daf24['stopPropagation']();}),document[_0x290b86(0x1c5)](_0x290b86(0x13a),_0x1e990a=>{const _0x45d4d6=_0x290b86;if(!_0x6ba842)return;let _0x373239=Math[_0x45d4d6(0x238)](0x140,Math[_0x45d4d6(0x15d)](window[_0x45d4d6(0x175)]-_0x25936c[_0x45d4d6(0x22c)]-0xa,_0x597fef+(_0x1e990a['clientX']-_0x4da426))),_0x58dead=Math[_0x45d4d6(0x238)](0xc8,Math['min'](window['innerHeight']-_0x25936c[_0x45d4d6(0x19d)]-0xa,_0x2f0873+(_0x1e990a[_0x45d4d6(0x1a8)]-_0x3d59ee)));_0x25936c[_0x45d4d6(0x174)][_0x45d4d6(0x165)]=_0x373239+'px',_0x25936c['style'][_0x45d4d6(0x203)]=_0x58dead+'px',_0x98235a(_0x25936c[_0x45d4d6(0x22c)],_0x25936c[_0x45d4d6(0x19d)]);}),document['addEventListener'](_0x290b86(0x225),()=>{const _0xbcb46c=_0x290b86;_0x6ba842&&(_0x6ba842=![],document[_0xbcb46c(0x209)][_0xbcb46c(0x174)][_0xbcb46c(0x170)]='',_0x98235a(_0x25936c[_0xbcb46c(0x22c)],_0x25936c['offsetTop']));});function _0x1a4943(){const _0x3c9caa=_0x290b86,_0x38e027=document[_0x3c9caa(0x1a4)](_0x3c9caa(0x246));if(!_0x38e027)return;const _0x2b9b6d=_0x25936c[_0x3c9caa(0x24b)](),_0x362edb=_0x38e027['getBoundingClientRect'](),_0x16d304=!(_0x2b9b6d[_0x3c9caa(0x22f)]<_0x362edb[_0x3c9caa(0x140)]||_0x2b9b6d[_0x3c9caa(0x140)]>_0x362edb[_0x3c9caa(0x22f)]||_0x2b9b6d[_0x3c9caa(0x1e6)]<_0x362edb['top']||_0x2b9b6d[_0x3c9caa(0x25d)]>_0x362edb['bottom']);_0x16d304?_0x25936c[_0x3c9caa(0x242)][_0x3c9caa(0x162)]('overlap-warning'):_0x25936c['classList'][_0x3c9caa(0x1d8)](_0x3c9caa(0x20b));}setInterval(_0x1a4943,0x3e8);const _0x3bc1a6=document[_0x290b86(0x235)]('div');_0x3bc1a6[_0x290b86(0x174)][_0x290b86(0x1e8)]='fixed',_0x3bc1a6['style'][_0x290b86(0x25d)]='0',_0x3bc1a6[_0x290b86(0x174)]['left']='0',_0x3bc1a6[_0x290b86(0x174)][_0x290b86(0x165)]=_0x290b86(0x191),_0x3bc1a6['style'][_0x290b86(0x203)]='100vh',_0x3bc1a6[_0x290b86(0x174)][_0x290b86(0x19e)]=_0x290b86(0x146),_0x3bc1a6[_0x290b86(0x174)][_0x290b86(0x254)]=_0x290b86(0x21c),_0x3bc1a6[_0x290b86(0x174)][_0x290b86(0x169)]='10050',_0x3bc1a6[_0x290b86(0x174)]['justifyContent']=_0x290b86(0x154),_0x3bc1a6['style']['alignItems']=_0x290b86(0x154),_0x3bc1a6[_0x290b86(0x174)][_0x290b86(0x210)]=_0x290b86(0x252);const _0x2bc7dc=document[_0x290b86(0x235)](_0x290b86(0x15c));_0x2bc7dc['style']['background']=_0x290b86(0x23a),_0x2bc7dc[_0x290b86(0x174)]['color']=_0x290b86(0x25c),_0x2bc7dc[_0x290b86(0x174)][_0x290b86(0x1bf)]=_0x290b86(0x160),_0x2bc7dc['style'][_0x290b86(0x224)]='10px',_0x2bc7dc[_0x290b86(0x174)]['boxShadow']=_0x290b86(0x1d3),_0x2bc7dc[_0x290b86(0x174)][_0x290b86(0x189)]='280px',_0x2bc7dc[_0x290b86(0x174)][_0x290b86(0x1ff)]=_0x290b86(0x15a),_0x2bc7dc['style']['display']=_0x290b86(0x14e),_0x2bc7dc[_0x290b86(0x174)]['flexDirection']=_0x290b86(0x13e),_0x2bc7dc[_0x290b86(0x174)][_0x290b86(0x17b)]='center',_0x3bc1a6[_0x290b86(0x200)](_0x2bc7dc),document[_0x290b86(0x209)][_0x290b86(0x200)](_0x3bc1a6);function _0xa4c917({title:_0x322dc2,message:_0x568fe5,input:_0x15cf7b,confirmText:_0x1bd4bc,cancelText:_0x13ba7b,onConfirm:_0x9e7bc5}){const _0x2ac73e=_0x290b86;_0x2bc7dc[_0x2ac73e(0x1e4)]='';const _0x3c705b=document[_0x2ac73e(0x235)](_0x2ac73e(0x15c));_0x3c705b['textContent']=_0x322dc2||'',_0x3c705b['style'][_0x2ac73e(0x207)]=_0x2ac73e(0x138),_0x3c705b[_0x2ac73e(0x174)][_0x2ac73e(0x248)]=_0x2ac73e(0x213),_0x3c705b[_0x2ac73e(0x174)][_0x2ac73e(0x1ed)]='10px',_0x2bc7dc[_0x2ac73e(0x200)](_0x3c705b);if(_0x568fe5){const _0x2519ce=document['createElement']('div');_0x2519ce[_0x2ac73e(0x1e4)]=_0x568fe5,_0x2519ce[_0x2ac73e(0x174)][_0x2ac73e(0x1ed)]=_0x2ac73e(0x24a),_0x2519ce['style'][_0x2ac73e(0x1ab)]=_0x2ac73e(0x154),_0x2bc7dc['appendChild'](_0x2519ce);}let _0x25c18a=null;if(_0x15cf7b){_0x25c18a=document[_0x2ac73e(0x235)](_0x2ac73e(0x17f)),_0x25c18a[_0x2ac73e(0x14b)]=_0x2ac73e(0x1c4),_0x25c18a['style'][_0x2ac73e(0x165)]=_0x2ac73e(0x218),_0x25c18a[_0x2ac73e(0x174)][_0x2ac73e(0x1bf)]='7px',_0x25c18a['style'][_0x2ac73e(0x1ed)]=_0x2ac73e(0x24a),_0x25c18a[_0x2ac73e(0x174)][_0x2ac73e(0x224)]=_0x2ac73e(0x21f),_0x25c18a[_0x2ac73e(0x174)]['border']='1px\x20solid\x20#888',_0x25c18a[_0x2ac73e(0x174)][_0x2ac73e(0x248)]=_0x2ac73e(0x168),_0x25c18a[_0x2ac73e(0x26d)]=_0x15cf7b['placeholder']||'';if(_0x15cf7b[_0x2ac73e(0x260)])_0x25c18a[_0x2ac73e(0x260)]=_0x15cf7b[_0x2ac73e(0x260)];_0x2bc7dc[_0x2ac73e(0x200)](_0x25c18a),setTimeout(()=>_0x25c18a[_0x2ac73e(0x1f8)](),0x32);}const _0x1d31a9=document[_0x2ac73e(0x235)](_0x2ac73e(0x15c));_0x1d31a9[_0x2ac73e(0x174)][_0x2ac73e(0x254)]=_0x2ac73e(0x14e),_0x1d31a9[_0x2ac73e(0x174)][_0x2ac73e(0x151)]=_0x2ac73e(0x205),_0x1d31a9[_0x2ac73e(0x174)][_0x2ac73e(0x1bb)]=_0x2ac73e(0x154),_0x2bc7dc[_0x2ac73e(0x200)](_0x1d31a9);const _0x4e7d5e=document['createElement']('button');_0x4e7d5e[_0x2ac73e(0x1a6)]=_0x1bd4bc||'OK';_0x1bd4bc&&_0x1bd4bc[_0x2ac73e(0x1b0)]()[_0x2ac73e(0x230)](_0x2ac73e(0x236))?(_0x4e7d5e[_0x2ac73e(0x174)][_0x2ac73e(0x19e)]=_0x2ac73e(0x1f7),_0x4e7d5e['style'][_0x2ac73e(0x25a)]=_0x2ac73e(0x25c),_0x4e7d5e[_0x2ac73e(0x174)]['border']=_0x2ac73e(0x21c),_0x4e7d5e[_0x2ac73e(0x174)][_0x2ac73e(0x224)]=_0x2ac73e(0x21f),_0x4e7d5e[_0x2ac73e(0x174)][_0x2ac73e(0x1bf)]=_0x2ac73e(0x167),_0x4e7d5e['style'][_0x2ac73e(0x248)]=_0x2ac73e(0x168),_0x4e7d5e[_0x2ac73e(0x174)]['cursor']='pointer'):(_0x4e7d5e[_0x2ac73e(0x174)][_0x2ac73e(0x19e)]=_0x2ac73e(0x1b3),_0x4e7d5e[_0x2ac73e(0x174)][_0x2ac73e(0x25a)]='white',_0x4e7d5e['style'][_0x2ac73e(0x180)]=_0x2ac73e(0x21c),_0x4e7d5e['style']['borderRadius']='5px',_0x4e7d5e['style'][_0x2ac73e(0x1bf)]=_0x2ac73e(0x167),_0x4e7d5e[_0x2ac73e(0x174)]['fontSize']=_0x2ac73e(0x168),_0x4e7d5e['style'][_0x2ac73e(0x187)]=_0x2ac73e(0x149));_0x1d31a9[_0x2ac73e(0x200)](_0x4e7d5e);const _0x48caf7=document[_0x2ac73e(0x235)](_0x2ac73e(0x1ce));_0x48caf7[_0x2ac73e(0x1a6)]=_0x13ba7b||_0x2ac73e(0x1eb);_0x1bd4bc&&_0x1bd4bc[_0x2ac73e(0x1b0)]()['includes'](_0x2ac73e(0x236))?(_0x48caf7['style'][_0x2ac73e(0x19e)]=_0x2ac73e(0x1b3),_0x48caf7[_0x2ac73e(0x174)][_0x2ac73e(0x25a)]=_0x2ac73e(0x25c)):(_0x48caf7[_0x2ac73e(0x174)][_0x2ac73e(0x19e)]=_0x2ac73e(0x1f7),_0x48caf7[_0x2ac73e(0x174)]['color']=_0x2ac73e(0x25c));_0x48caf7['style'][_0x2ac73e(0x180)]=_0x2ac73e(0x21c),_0x48caf7[_0x2ac73e(0x174)][_0x2ac73e(0x224)]=_0x2ac73e(0x21f),_0x48caf7['style']['padding']=_0x2ac73e(0x167),_0x48caf7[_0x2ac73e(0x174)][_0x2ac73e(0x248)]='15px',_0x48caf7[_0x2ac73e(0x174)][_0x2ac73e(0x187)]=_0x2ac73e(0x149),_0x1d31a9[_0x2ac73e(0x200)](_0x48caf7);function _0x248758(){const _0x4f6bb1=_0x2ac73e;_0x3bc1a6[_0x4f6bb1(0x174)][_0x4f6bb1(0x254)]=_0x4f6bb1(0x21c);}_0x4e7d5e[_0x2ac73e(0x21a)]=()=>{const _0x5addf9=_0x2ac73e;_0x25c18a?_0x9e7bc5(_0x25c18a[_0x5addf9(0x260)]):_0x9e7bc5(),_0x248758();},_0x48caf7['onclick']=_0x248758,_0x3bc1a6['style'][_0x2ac73e(0x254)]='flex';}_0x3cd0fd['addEventListener'](_0x290b86(0x177),()=>{const _0x3c72fd=_0x290b86;if(_0x1cfd56[_0x3c72fd(0x13f)]<=0x1){_0xa4c917({'title':_0x3c72fd(0x144),'message':'You\x20cannot\x20delete\x20the\x20last\x20profile.','confirmText':'OK','cancelText':null,'onConfirm':()=>{}});return;}_0xa4c917({'title':_0x3c72fd(0x228),'message':_0x3c72fd(0x1ae)+_0x1cfd56[_0x2d9062][_0x3c72fd(0x16c)]+_0x3c72fd(0x188),'confirmText':_0x3c72fd(0x23c),'cancelText':_0x3c72fd(0x1eb),'onConfirm':()=>{const _0x57e1c1=_0x3c72fd;_0x1cfd56[_0x57e1c1(0x232)](_0x2d9062,0x1);if(_0x2d9062>=_0x1cfd56[_0x57e1c1(0x13f)])_0x2d9062=_0x1cfd56[_0x57e1c1(0x13f)]-0x1;_0x4b7b0f(),_0x1a1550(),_0x1ffd9a();}});}),_0x5b8994['addEventListener'](_0x290b86(0x177),()=>{const _0x43bd4e=_0x290b86;_0x4a0d91['style'][_0x43bd4e(0x254)]=_0x43bd4e(0x21c),_0xa4c917({'title':_0x43bd4e(0x1b8),'message':_0x43bd4e(0x139),'input':{'placeholder':_0x43bd4e(0x1a7)},'confirmText':_0x43bd4e(0x1d1),'cancelText':_0x43bd4e(0x1eb),'onConfirm':_0x293a4f=>{const _0x4a29ef=_0x43bd4e;if(!_0x293a4f)return;_0x1cfd56[_0x4a29ef(0x1f1)](_0x4e9431=>_0x4e9431[_0x4a29ef(0x16c)]===_0x293a4f)&&_0xa4c917({'title':'Duplicate\x20Profile\x20Name','message':_0x4a29ef(0x231),'confirmText':'OK','cancelText':null,'onConfirm':()=>{}}),_0x1cfd56[_0x4a29ef(0x1f2)]({'name':_0x293a4f,'skins':[]}),_0x2d9062=_0x1cfd56[_0x4a29ef(0x13f)]-0x1,_0x4b7b0f(),_0x1a1550(),_0x1ffd9a();}});}),_0x4e7897['addEventListener']('input',_0x1ffd9a),_0x4e7897[_0x290b86(0x174)][_0x290b86(0x1a1)]=_0x290b86(0x19a),_0xc327ea['style']['margin']=_0x290b86(0x17c),_0x4da67c[_0x290b86(0x174)][_0x290b86(0x1a1)]='-10px';}()));
+// ==UserScript==
+// @name         working namelor changer + diag Feed + Hotkeys + Favorites)
+// @namespace    http://tampermonkey.net/
+// @version      0.3
+// @description  a script that was made with 0 experince dont expect much
+// @author       Tenshi
+// @match        *://*.gota.io/*
+// @match        *://gota.io/*
+// @grant        GM_xmlhttpRequest
+// @grant        GM_addStyle
+// @connect      cdnjs.cloudflare.com
+// @run-at       document-start
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // === Performance Optimization Functions ===
+    function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    }
+
+    function throttle(func, limit) {
+        let inThrottle;
+        return function executedFunction(...args) {
+            if (!inThrottle) {
+                func(...args);
+                inThrottle = true;
+                setTimeout(() => inThrottle = false, limit);
+            }
+        };
+    }
+
+    function requestIdleCallback(callback) {
+        if ('requestIdleCallback' in window) {
+            return window.requestIdleCallback(callback);
+        }
+        return setTimeout(callback, 1);
+    }
+
+    function memoize(fn) {
+        const cache = new Map();
+        return (...args) => {
+            const key = JSON.stringify(args);
+            if (cache.has(key)) return cache.get(key);
+            const result = fn.apply(this, args);
+            cache.set(key, result);
+            return result;
+        };
+    }
+
+    // Cache DOM queries
+    const domCache = new Map();
+    function getCachedElement(selector) {
+        if (!domCache.has(selector)) {
+            domCache.set(selector, document.querySelector(selector));
+        }
+        return domCache.get(selector);
+    }
+
+    // Enhanced DOM caching system
+    const domCacheWithExpiry = new Map();
+    const CACHE_DURATION = 5000; // 5 seconds cache duration
+
+    function getCachedElementWithExpiry(selector) {
+        const now = Date.now();
+        const cached = domCacheWithExpiry.get(selector);
+
+        if (cached && now - cached.timestamp < CACHE_DURATION) {
+            return cached.element;
+        }
+
+        const element = document.querySelector(selector);
+        domCacheWithExpiry.set(selector, {
+            element,
+            timestamp: now
+        });
+        return element;
+    }
+
+    function clearExpiredCache() {
+        const now = Date.now();
+        for (const [selector, data] of domCacheWithExpiry) {
+            if (now - data.timestamp > CACHE_DURATION) {
+                domCacheWithExpiry.delete(selector);
+            }
+        }
+    }
+
+    // Periodic cache cleanup
+    setInterval(clearExpiredCache, CACHE_DURATION);
+
+    // RAF wrapper for smooth animations
+    function rafThrottle(callback) {
+        let requestId = null;
+        return function throttled(...args) {
+            if (requestId === null) {
+                requestId = requestAnimationFrame(() => {
+                    callback.apply(this, args);
+                    requestId = null;
+                });
+            }
+        };
+    }
+
+    // Enhanced RAF Queue System
+    const rafQueue = new Set();
+    let rafProcessing = false;
+
+    function processRAFQueue() {
+        if (rafProcessing || rafQueue.size === 0) return;
+
+        rafProcessing = true;
+        requestAnimationFrame(() => {
+            for (const callback of rafQueue) {
+                try {
+                    callback();
+                } catch (error) {
+                    console.error('RAF Queue Error:', error);
+                }
+            }
+            rafQueue.clear();
+            rafProcessing = false;
+        });
+    }
+
+    function queueRAF(callback) {
+        rafQueue.add(callback);
+        processRAFQueue();
+    }
+
+    // Batch DOM updates
+    function batchDOMUpdates(updates) {
+        return new Promise(resolve => {
+            requestAnimationFrame(() => {
+                updates();
+                resolve();
+            });
+        });
+    }
+
+    // Batch RAF updates
+    function batchRAF(updates) {
+        return new Promise(resolve => {
+            queueRAF(() => {
+                updates();
+                resolve();
+            });
+        });
+    }
+
+    // === Constants and State Variables ===
+    const PATH1_MIN_DELAY = 755;
+    const PATH2_MIN_DELAY = 785;
+    const PATH3_MIN_DELAY = 800;
+    const PATH4_MIN_DELAY = 815;
+    const PATH5_MIN_DELAY = 830;
+    const EDGE_TOUCH_DISTANCE = 1;
+    const BASE_DISTANCE = 15;
+
+    let isRunning = false;
+    let intervalId = null;
+    let isScriptRunning = false;
+    let lastActionTime = 0;
+    let isColorChangerRunning = false;
+    let colorChangerIntervalId = null;
+    let skinsList = [];
+    let isLoadingSkins = false;
+    let favoriteSkins = JSON.parse(localStorage.getItem('gota-favorite-skins')) || [];
+    let notificationsEnabled = JSON.parse(localStorage.getItem('gota-notifications-enabled') || 'false');
+    let unusedSkins = []; // Track unused skins for true random selection
+    let lastUsedSkin = null; // Track the last used skin
+    let currentIndex = 0; // Add currentIndex variable for skin alternation
+
+    // Performance Optimization Systems
+    const ElementCache = {
+        elements: new Map(),
+        getElement(id) {
+            let element = this.elements.get(id);
+            // Check if cached element is still in the DOM
+            if (!element || !document.body.contains(element)) {
+                element = document.getElementById(id);
+                if (element) {
+                    this.elements.set(id, element);
+                } else {
+                    this.elements.delete(id);
+                }
+            }
+            return element;
+        },
+        clearCache() {
+            this.elements.clear();
+        }
+    };
+
+    // Add a toggle counter to periodically clear cache
+    let toggleCounter = 0;
+    const TOGGLE_CACHE_CLEAR_INTERVAL = 20;
+
+    const TOGGLE_OPTIONS = Object.freeze(['ALL', 'PARTY', 'SELF', 'NONE']);
+    const TOGGLE_DELAY = 100; // Minimum time between toggles in ms
+
+    const ToggleState = {
+        lastToggleTime: 0,
+        toggleQueue: new Map(),
+        isProcessing: false
+    };
+
+    const PerformanceMetrics = {
+        toggleTimes: [],
+
+        recordToggle(operation, duration) {
+            this.toggleTimes.push({ operation, duration, timestamp: Date.now() });
+
+            // Keep only last 100 measurements
+            if (this.toggleTimes.length > 100) {
+                this.toggleTimes.shift();
+            }
+
+            // Log if performance is degrading
+            this.checkPerformance();
+        },
+
+        checkPerformance() {
+            const recent = this.toggleTimes.slice(-10);
+            if (recent.length < 10) return;
+
+            const avgDuration = recent.reduce((sum, {duration}) => sum + duration, 0) / recent.length;
+            if (avgDuration > 100) { // If average toggle takes more than 100ms
+                console.warn('Performance degrading. Average toggle time:', avgDuration.toFixed(2), 'ms');
+                this.cleanup();
+            }
+        },
+
+        cleanup() {
+            // Force cleanup of caches and queues
+            ElementCache.clearCache();
+            ToggleState.toggleQueue.clear();
+            this.toggleTimes = [];
+        }
+    };
+
+    // Add timer variables
+    let skinTimerInterval = null;
+    let colorTimerInterval = null;
+    let skinNextChange = 15.5;
+    let colorNextChange = 15.5;
+    let showSkinTimer = false;
+    let showColorTimer = false;
+
+    // === Default Configuration ===
+    const defaultHotkeys = {
+        disableMassEject: '',
+        showMass: '',
+        showNames: '',
+        showSkins: '',
+        autoRespawn: '',
+        partyCode: '',
+        hideChat: '',
+        spectateMode: '',
+        leaveParty: '',
+        pentaSplit: '',
+        octoSplit: '',
+        tripleSplit: '',
+        split16x256: '',
+        split16x16Long: '',
+        split8x: '',
+        split16x: '',
+        split32x: '',
+        split256x: ''
+    };
+
+    // === Styles ===
+    const styles = {
+        '.enhancer-btn': {
+            'position': 'relative',
+            'margin': '0 3px',
+            'padding': '6px 12px',
+            'color': '#fff',
+            'background-color': 'rgba(0, 0, 0, .7)',
+            'border': 'none',
+            'border-radius': '4px',
+            'cursor': 'pointer',
+            'float': 'none',
+            'height': 'auto',
+            'line-height': '1.5',
+            'font-size': '15x',
+            'font-weight': '500',
+            'font-family': '"Open Sans", sans-serif',
+            'transition': 'all 0.2s ease',
+            'box-shadow': '0 2px 4px rgba(0,0,0,0.1)'
+        },
+        '.g-recaptcha, .grecaptcha-badge': {
+            'display': 'none !important'
+        },
+        '.bottom-btn': {
+            'height': '28px'
+        },
+        '.-features-table': {
+            'margin': 'auto',
+            'width': 'max-content',
+            'border-collapse': 'collapse'
+        },
+        '.enhancer-btn:hover': {
+            'background-color': '#333'
+        },
+        '.enhancer-window': {
+            'position': 'fixed',
+            'top': '50%',
+            'left': '50%',
+            'transform': 'translate(-50%, -50%)',
+            'padding': '10px',
+            'background-color': '#222',
+            'border': '1px solid rgb(169, 169, 169)',
+            'border-radius': '5px',
+            'color': '#fff',
+            'font-family': 'Arial, sans-serif',
+            'z-index': '1000',
+            'display': 'none',
+            'min-width': '300px',
+            'max-width': '80vw',
+            'max-height': '85vh',
+            'overflow-y': 'auto'
+        },
+        '.enhancer-blackout': {
+            'position': 'fixed',
+            'top': '0',
+            'right': '0',
+            'bottom': '0',
+            'left': '0',
+            'background': 'rgba(0,0,0,0.7)',
+            'display': 'none',
+            'z-index': '999'
+        },
+        '.enhancer-table': {
+            'width': '100%',
+            'border-collapse': 'collapse',
+            'margin': '10px 0',
+            'background': '#222',
+            'font-size': '16px'
+        },
+        '.enhancer-table th': {
+            'text-align': 'left',
+            'padding': '5px 8px',
+            'background-color': '#333',
+            'font-weight': 'normal',
+            'font-size': '16px',
+            'border-bottom': '1px solid rgb(169, 169, 169)'
+        },
+        '.enhancer-table td': {
+            'padding': '5px 8px',
+            'border-bottom': '1px solid rgb(169, 169, 169)',
+            'font-size': '16px'
+        },
+        '.enhancer-table input[type="text"]': {
+            'width': 'auto',
+            'height': '20px',
+            'padding': '0 5px',
+            'background': '#fff',
+            'border': '1px solid rgb(169, 169, 169)',
+            'color': '#333',
+            'border-radius': '5px',
+            'font-size': '16px',
+            'outline': 'none'
+        },
+        '.enhancer-section': {
+            'margin-bottom': '10px',
+            'padding': '8px',
+            'background': '#222',
+            'border': '1px solid rgb(169, 169, 169)',
+            'border-radius': '5px'
+        },
+        '.enhancer-section-title': {
+            'font-size': '16px',
+            'font-weight': 'normal',
+            'margin': '0 0 8px',
+            'padding-bottom': '5px',
+            'border-bottom': '1px solid rgb(169, 169, 169)',
+            'color': '#fff'
+        },
+        '.enhancer-btn-action': {
+            'width': 'auto',
+            'height': '20px',
+            'padding': '0 8px',
+            'margin': '2px',
+            'background-color': '#222',
+            'border': '1px solid rgb(169, 169, 169)',
+            'color': '#fff',
+            'border-radius': '5px',
+            'cursor': 'pointer',
+            'font-size': '16px',
+            'line-height': '18px',
+            'outline': 'none'
+        },
+        '.enhancer-btn-action:hover': {
+            'background-color': '#333'
+        },
+        '.enhancer-footer': {
+            'margin-top': '10px',
+            'padding-top': '8px',
+            'border-top': '1px solid rgb(169, 169, 169)',
+            'text-align': 'right'
+        },
+        '.color-picker-container': {
+            'margin': '8px 0',
+            'padding': '8px',
+            'background': '#222',
+            'border': '1px solid rgb(169, 169, 169)',
+            'border-radius': '5px'
+        },
+        '.color-input': {
+            'width': 'auto',
+            'height': '20px',
+            'padding': '0 5px',
+            'background': '#fff',
+            'border': '1px solid rgb(169, 169, 169)',
+            'color': '#333',
+            'border-radius': '5px',
+            'margin-right': '8px',
+            'font-size': '16px',
+            'outline': 'none'
+        },
+        '.enhancer-checkbox-wrapper': {
+            'display': 'flex',
+            'align-items': 'center',
+            'margin': '5px 0',
+            'padding': '5px',
+            'background': '#222',
+            'border-radius': '5px'
+        },
+        '.enhancer-label': {
+            'font-size': '16px',
+            'color': '#fff'
+        },
+        '.text-center': {
+            'text-align': 'center'
+        },
+        '.text-left': {
+            'text-align': 'left'
+        },
+        '.text-right': {
+            'text-align': 'right'
+        },
+        '.d-none': {
+            'display': 'none'
+        },
+        '.text-red': {
+            'color': 'red'
+        },
+        '.hotkey-notification': {
+            'position': 'fixed',
+            'bottom': '20px',
+            'right': '20px',
+            'background-color': 'rgba(0, 0, 0, 0.8)',
+            'color': '#fff',
+            'padding': '8px 15px',
+            'border-radius': '5px',
+            'font-family': 'Arial, sans-serif',
+            'font-size': '14px',
+            'z-index': '9999',
+            'pointer-events': 'none',
+            'transition': 'opacity 0.3s ease-in-out',
+            'opacity': '0'
+        },
+        '.hotkey-notification.show': {
+            'opacity': '1'
+        },
+        '.hotkey-notification.success': {
+            'background-color': 'rgba(40, 167, 69, 0.9)',
+            'border-left': '4px solid #28a745'
+        },
+        '.hotkey-notification.warning': {
+            'background-color': 'rgba(255, 193, 7, 0.9)',
+            'border-left': '4px solid #ffc107'
+        },
+        '.hotkey-notification.error': {
+            'background-color': 'rgba(220, 53, 69, 0.9)',
+            'border-left': '4px solid #dc3545'
+        },
+        '.hotkey-notification.skin': {
+            'background-color': 'rgba(219, 112, 219, 0.9)',
+            'border-left': '4px solid #da70d6',
+            'color': 'white',
+            'text-shadow': '0 1px 1px rgba(0, 0, 0, 0.2)'
+        },
+        '.hotkey-notification.spectate': {
+            'background-color': 'rgba(75, 0, 130, 0.9)',  // Indigo color
+            'border-left': '4px solid #4b0082',
+            'color': 'white',
+            'text-shadow': '0 1px 1px rgba(0, 0, 0, 0.2)'
+        },
+        '.hotkey-notification.party': {
+            'background-color': 'rgba(0, 191, 255, 0.9)',  // Deep Sky Blue
+            'border-left': '4px solid #00bfff',
+            'color': 'white',
+            'text-shadow': '0 1px 1px rgba(0, 0, 0, 0.2)'
+        },
+        '.hotkey-notification.dynamic-color': {
+            'color': 'white',
+            'text-shadow': '0 1px 1px rgba(0, 0, 0, 0.2)'
+        },
+        '.timer-display': {
+            'position': 'fixed',
+            'top': '10px',
+            'left': '10px',
+            'background-color': 'rgba(0, 0, 0, 0.8)',
+            'color': '#fff',
+            'padding': '8px 15px',
+            'border-radius': '5px',
+            'font-family': 'Arial, sans-serif',
+            'font-size': '14px',
+            'z-index': '9999',
+            'cursor': 'move',
+            'user-select': 'none',
+            'display': 'none'
+        },
+        '.timer-display.skin': {
+            'border-left': '4px solid #da70d6'
+        },
+        '.timer-display.color': {
+            'border-left': '4px solid #00bfff'
+        }
+    };
+
+    // === Utility Functions ===
+    function createStyles() {
+        const style = document.createElement('style');
+        document.head.appendChild(style);
+        const stylesheet = style.sheet;
+
+        for (const selector in styles) {
+            let rule = selector + '{';
+            for (const property in styles[selector]) {
+                rule += property + ':' + styles[selector][property] + ';';
+            }
+            rule += '}';
+            stylesheet.insertRule(rule, stylesheet.cssRules.length);
+        }
+    }
+
+   // === UI Creation Functions ===
+    function createEnhancerUI() {
+        const mainButton = document.createElement('button');
+        mainButton.className = 'gota-btn bottom-btn enhancer-btn';
+        mainButton.innerHTML = '<i class="fas fa-cog"></i> Extra';
+        mainButton.style.margin = '0 18px';
+        mainButton.style.float = 'none';
+
+        const blackout = document.createElement('div');
+        blackout.className = 'enhancer-blackout';
+
+        const window = document.createElement('div');
+        window.className = 'enhancer-window';
+
+        // Add Font Awesome using GM_addStyle
+        GM_addStyle(`@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');`);
+
+        window.innerHTML = `
+            <div class="enhancer-section">
+                <div class="enhancer-section-title">
+                    <i class="fas fa-keyboard"></i> Hotkeys Configuration
+                </div>
+                ${createHotkeysTable()}
+            </div>
+
+            <div class="enhancer-section">
+                <div class="enhancer-section-title">
+                    <i class="fas fa-mask"></i> Auto Skin Changer
+                </div>
+                <div class="switch-container">
+                    <label class="switch">
+                        <input type="checkbox" id="use-random-skins">
+                        <span class="switch-slider"></span>
+                    </label>
+                    <span>Use Random Skins</span>
+                </div>
+                <div class="switch-container">
+                    <label class="switch">
+                        <input type="checkbox" id="show-skin-timer">
+                        <span class="switch-slider"></span>
+                    </label>
+                    <span>Show Timer</span>
+                </div>
+                ${createSkinChangerTable()}
+            </div>
+
+            <div class="enhancer-section">
+                <div class="enhancer-section-title">
+                    <i class="fas fa-palette"></i> Cell Color
+                </div>
+                ${createColorPickerSection()}
+                <div class="switch-container">
+                    <label class="switch">
+                        <input type="checkbox" id="use-random-colors">
+                        <span class="switch-slider"></span>
+                    </label>
+                    <span>Use Random Colors</span>
+                </div>
+                <div class="switch-container">
+                    <label class="switch">
+                        <input type="checkbox" id="show-color-timer">
+                        <span class="switch-slider"></span>
+                    </label>
+                    <span>Show Timer</span>
+                </div>
+            </div>
+
+            <div class="enhancer-section">
+                <div class="enhancer-section-title">
+                    <i class="fas fa-bell"></i> Notifications
+                </div>
+                <div class="switch-container">
+                    <label class="switch">
+                        <input type="checkbox" id="notifications-toggle" ${notificationsEnabled ? 'checked' : ''}>
+                        <span class="switch-slider"></span>
+                    </label>
+                    <span>Enable Notifications</span>
+                </div>
+            </div>
+
+            <div class="enhancer-section">
+                <div class="enhancer-section-title">
+                    <i class="fas fa-comment-dots"></i> Spam Chat
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                    <input type="text" id="spam-chat-message" placeholder="Enter message to spam" style="flex: 1; padding: 5px;">
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <input type="range" id="spam-chat-slider" min="0" max="120" step="10" value="0" style="width: 200px;">
+                    <span id="spam-chat-slider-value" style="min-width: 40px;">OFF</span>
+                </div>
+            </div>
+
+            <div class="enhancer-footer">
+                <button class="enhancer-btn-action" id="enhancer-close">
+                    <i class="fas fa-times"></i> Close
+                </button>
+            </div>
+        `;
+
+        document.body.appendChild(blackout);
+        document.body.appendChild(window);
+
+        const bottomLeft = document.querySelector('.main-bottom-left');
+        if (bottomLeft) {
+            bottomLeft.appendChild(mainButton);
+        }
+
+        setupUIEventListeners(mainButton, window, blackout);
+    }
+
+    function createHotkeysTable() {
+        const hotkeys = getHotkeys();
+        let html = `
+            <table class="enhancer-table">
+                <tr>
+                    <th>Action</th>
+                    <th>Key</th>
+                </tr>
+        `;
+
+        const hotkeyLabels = {
+            pentaSplit: 'diag feed (32x32)',
+            octoSplit: 'diag feed (32x256)',
+            split16x: '16x Split',
+            split32x: '32x Split',
+            split256x: '256x Split',
+            disableMassEject: 'Disable Mass Eject',
+            showMass: 'Show Mass',
+            showNames: 'Show Names',
+            showSkins: 'Show Skins',
+            autoRespawn: 'Auto Respawn',
+            partyCode: 'Party Code',
+            hideChat: 'Hide Chat',
+            spectateMode: 'Spectate Mode',
+            leaveParty: 'Leave Party'
+        };
+
+        for (const [key, label] of Object.entries(hotkeyLabels)) {
+            html += `
+                <tr>
+                    <td>${label}</td>
+                    <td><input type="text" value="${hotkeys[key] || ''}" data-hotkey="${key}" readonly></td>
+                </tr>
+            `;
+        }
+
+        html += '</table>';
+        return html;
+    }
+
+    function createSkinChangerTable() {
+        const skins = getSkinNames();
+        return `
+            <table class="enhancer-table">
+                <tr>
+                    <td>Skin 1</td>
+                    <td><input type="text" id="skin1" value="${skins.skin1}"></td>
+                </tr>
+                <tr>
+                    <td>Skin 2</td>
+                    <td><input type="text" id="skin2" value="${skins.skin2}"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div id="random-skins-info" style="display: none; margin: 10px 0; font-size: 12px;">
+                            Loading available skins...
+                        </div>
+                        <button class="enhancer-btn-action" id="toggle-skin-change">
+                            ${isRunning ? 'Stop' : 'Start'} Auto Change
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <div class="enhancer-section">
+                <div class="enhancer-section-title">Favorite Skins</div>
+                <div class="favorites-container" style="max-height: 200px; overflow-y: auto; margin: 10px 0;">
+                    <div id="favorites-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 5px;"></div>
+                </div>
+                <div style="display: flex; gap: 10px; margin: 10px 0;">
+                    <input type="text" id="new-favorite-skin" placeholder="Enter skin name" style="flex: 1; padding: 5px;">
+                    <button class="enhancer-btn-action" id="add-favorite-btn">Add to List</button>
+                </div>
+            </div>
+        `;
+    }
+
+    function createColorPickerSection() {
+        // Load saved colors
+        const savedColors = JSON.parse(localStorage.getItem('enhancer-colors') || JSON.stringify(DEFAULT_COLORS));
+        const color1 = savedColors.color1 || DEFAULT_COLORS.color1;
+        const color2 = savedColors.color2 || DEFAULT_COLORS.color2;
+
+        return `
+            <div class="enhancer-section">
+                <div class="enhancer-section-title">Cell Color</div>
+                <div class="color-picker-container">
+                    <div style="margin-bottom: 10px;">
+                        <div style="margin-bottom: 10px;">
+                            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                                <div id="color-preview1" class="color-preview"></div>
+                                <input type="color" id="color-picker1" style="vertical-align: middle; margin: 0 5px;">
+                                <span style="color: #ff0000; margin: 0 5px;">←</span>
+                                <span style="color: #fff;">Choose Color: 1</span>
+                            </div>
+                            <div style="display: flex; align-items: center;">
+                                <div id="color-preview2" class="color-preview"></div>
+                                <input type="color" id="color-picker2" style="vertical-align: middle; margin: 0 5px;">
+                                <span style="color: #ff0000; margin: 0 5px;">←</span>
+                                <span style="color: #fff;">Choose Color: 2</span>
+                            </div>
+                        </div>
+                        <div>
+                            Color 1:
+                            R: <input type="number" id="red1" class="color-input" min="25" max="255" value="${color1.r}">
+                            G: <input type="number" id="green1" class="color-input" min="25" max="255" value="${color1.g}">
+                            B: <input type="number" id="blue1" class="color-input" min="25" max="255" value="${color1.b}">
+                            <button class="enhancer-btn-action" id="random-color1">Random</button>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            Color 2:
+                            R: <input type="number" id="red2" class="color-input" min="25" max="255" value="${color2.r}">
+                            G: <input type="number" id="green2" class="color-input" min="25" max="255" value="${color2.g}">
+                            B: <input type="number" id="blue2" class="color-input" min="25" max="255" value="${color2.b}">
+                            <button class="enhancer-btn-action" id="random-color2">Random</button>
+                        </div>
+                    </div>
+                    <div style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+                        <button class="enhancer-btn-action" id="toggle-color-change">Start Auto Change</button>
+                        <div>
+                            <button class="enhancer-btn-action" id="apply-color1">Apply Color 1</button>
+                            <button class="enhancer-btn-action" id="apply-color2">Apply Color 2</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // === Game Functions ===
+    function getYourCells() {
+        if (typeof GOTA !== 'undefined' && GOTA.cells) {
+            return GOTA.cells.filter(cell => cell.isYours);
+        }
+        return [];
+    }
+
+    function getOtherPlayerCells() {
+        if (typeof GOTA !== 'undefined' && GOTA.cells) {
+            return GOTA.cells.filter(cell => !cell.isYours && !cell.isVirus && !cell.isFood);
+        }
+        return [];
+    }
+
+    function getEdgeDistance(cell1, cell2) {
+        let centerDistance = Math.sqrt(Math.pow(cell2.x - cell1.x, 2) + Math.pow(cell2.y - cell1.y, 2));
+        return centerDistance - cell1.radius - cell2.radius;
+    }
+
+    function simulateSpacebarPress() {
+        const eventDown = new KeyboardEvent('keydown', {
+            key: ' ',
+            code: 'Space',
+            keyCode: 32,
+            which: 32,
+            bubbles: true
+        });
+        document.dispatchEvent(eventDown);
+
+        const eventUp = new KeyboardEvent('keyup', {
+            key: ' ',
+            code: 'Space',
+            keyCode: 32,
+            which: 32,
+            bubbles: true
+        });
+        document.dispatchEvent(eventUp);
+    }
+
+    // Regular instant splits
+    function perform16xSplit() {
+        for (let i = 0; i < 4; i++) simulateSpacebarPress();
+    }
+
+    function perform32xSplit() {
+        for (let i = 0; i < 5; i++) simulateSpacebarPress();
+    }
+
+    function perform256xSplit() {
+        for (let i = 0; i < 8; i++) simulateSpacebarPress();
+    }
+
+    // Reliable splits with tiny delays
+    async function performReliable16xSplit() {
+        for (let i = 0; i < 4; i++) {
+            simulateSpacebarPress();
+            await new Promise(resolve => setTimeout(resolve, 2));
+        }
+    }
+
+    async function performReliable32xSplit() {
+        for (let i = 0; i < 5; i++) {
+            simulateSpacebarPress();
+            await new Promise(resolve => setTimeout(resolve, 2));
+        }
+    }
+
+    async function performReliable256xSplit() {
+        for (let i = 0; i < 8; i++) {
+            simulateSpacebarPress();
+            await new Promise(resolve => setTimeout(resolve, 2));
+        }
+    }
+
+    // Add option to switch between split types
+    let useReliableSplits = false;
+
+    function toggleSplitType() {
+        useReliableSplits = !useReliableSplits;
+        const toggleBtn = document.getElementById('split-type-toggle');
+        if (toggleBtn) {
+            toggleBtn.textContent = useReliableSplits ? 'Using Reliable Splits' : 'Using Fast Splits';
+        }
+    }
+
+    function performPentaSplit() {
+        for (let i = 0; i < 5; i++) simulateSpacebarPress();
+    }
+
+    function performOctoSplit() {
+        for (let i = 0; i < 8; i++) simulateSpacebarPress();
+    }
+
+    function performTripleSplit() {
+        for (let i = 0; i < 4; i++) simulateSpacebarPress();
+    }
+
+    function calculateProximityBasedDelay(minDelay) {
+        let otherCells = getOtherPlayerCells();
+        if (otherCells.length === 0) {
+            return minDelay;
+        }
+
+        let yourCells = getYourCells();
+        if (yourCells.length === 0) {
+            return minDelay;
+        }
+
+        let minEdgeDistance = Infinity;
+        for (let cell of yourCells) {
+            for (let otherCell of otherCells) {
+                let edgeDistance = getEdgeDistance(cell, otherCell);
+                if (edgeDistance < minEdgeDistance) {
+                    minEdgeDistance = edgeDistance;
+                }
+            }
+        }
+
+        let delay;
+        if (minEdgeDistance <= EDGE_TOUCH_DISTANCE) {
+            delay = minDelay;
+        } else if (minEdgeDistance <= BASE_DISTANCE) {
+            delay = minDelay + (BASE_DISTANCE - minEdgeDistance) * (minDelay / BASE_DISTANCE);
+        } else {
+            delay = minDelay;
+        }
+
+        return delay;
+    }
+
+    function calculateMassBasedDelay() {
+        let yourCells = getYourCells();
+        if (yourCells.length === 0) {
+            return 0;
+        }
+
+        let totalMass = yourCells.reduce((sum, cell) => sum + cell.mass, 0);
+        return totalMass / 5;
+    }
+
+    function calculateTotalDelay(isTripleSplit, minDelay) {
+        let proximityDelay = calculateProximityBasedDelay(minDelay);
+        let massDelay = calculateMassBasedDelay();
+        return Math.max(minDelay, proximityDelay + massDelay);
+    }
+
+    function start16x256Split() {
+        if (isScriptRunning) return;
+        isScriptRunning = true;
+        perform16xSplit();
+
+        let delay = calculateTotalDelay(false, PATH3_MIN_DELAY);
+        let startTime = performance.now();
+
+        function loop(currentTime) {
+            if (currentTime - startTime >= delay) {
+                perform256xSplit();
+                isScriptRunning = false;
+            } else {
+                requestAnimationFrame(loop);
+            }
+        }
+        requestAnimationFrame(loop);
+    }
+
+    function start16x16LongSplit() {
+        if (isScriptRunning) return;
+        isScriptRunning = true;
+        perform16xSplit();
+
+        let delay = calculateTotalDelay(false, PATH2_MIN_DELAY);
+        let startTime = performance.now();
+
+        function loop(currentTime) {
+            if (currentTime - startTime >= delay) {
+                perform16xSplit();
+                isScriptRunning = false;
+            } else {
+                requestAnimationFrame(loop);
+            }
+        }
+        requestAnimationFrame(loop);
+    }
+
+    function startPentaSplit() {
+        if (isScriptRunning) return;
+        isScriptRunning = true;
+
+        performPentaSplit();
+        lastActionTime = performance.now();
+
+        let delay = calculateTotalDelay(false, PATH4_MIN_DELAY);
+
+        function loop(currentTime) {
+            const elapsed = currentTime - lastActionTime;
+            if (elapsed >= delay) {
+                performPentaSplit();
+                isScriptRunning = false;
+            } else {
+                requestAnimationFrame(loop);
+            }
+        }
+        requestAnimationFrame(loop);
+    }
+
+    function startOctoSplit() {
+        if (isScriptRunning) return;
+        isScriptRunning = true;
+
+        performPentaSplit();
+        lastActionTime = performance.now();
+
+        let delay = calculateTotalDelay(false, PATH5_MIN_DELAY);
+
+        function loop(currentTime) {
+            const elapsed = currentTime - lastActionTime;
+            if (elapsed >= delay) {
+                performOctoSplit();
+                isScriptRunning = false;
+            } else {
+                requestAnimationFrame(loop);
+            }
+        }
+        requestAnimationFrame(loop);
+    }
+
+    function startTripleSplit() {
+        if (isScriptRunning) return;
+        isScriptRunning = true;
+
+        performTripleSplit();
+        lastActionTime = performance.now();
+
+        let delay = calculateTotalDelay(true, PATH1_MIN_DELAY);
+
+        function loop(currentTime) {
+            const elapsed = currentTime - lastActionTime;
+            if (elapsed >= delay) {
+                performTripleSplit();
+                isScriptRunning = false;
+            } else {
+                requestAnimationFrame(loop);
+            }
+        }
+        requestAnimationFrame(loop);
+    }
+
+    // === Skin Changer Functions ===
+    function toggleSkinChanger() {
+        if (isRunning) {
+            stopSkinChanger();
+        } else {
+            startSkinChanger();
+        }
+    }
+
+    function startSkinChanger() {
+        const useRandom = document.getElementById('use-random-skins')?.checked;
+        const skin1 = document.getElementById('skin1').value.trim();
+        const skin2 = document.getElementById('skin2').value.trim();
+
+        if (!useRandom && (!skin1 || !skin2)) {
+            alert('Please enter valid skin names in both fields.');
+            return;
+        }
+
+        saveSkinNames(skin1, skin2);
+        isRunning = true;
+
+        // Start the timer
+        startTimer('skin');
+
+        // Reset the unused skins pool when starting
+        if (useRandom) {
+            unusedSkins = [...favoriteSkins];
+            lastUsedSkin = null;
+            const randomSkin = getRandomSkin();
+            changeSkin(randomSkin);
+            showNotification('Auto Skin Changer started with Random Skins', 'success');
+        } else {
+            currentIndex = 0; // Reset currentIndex when starting
+            changeSkin(skin1);
+            showNotification('Auto Skin Changer started', 'success');
+        }
+
+        intervalId = setInterval(() => {
+            if (useRandom) {
+                changeSkin(getRandomSkin());
+            } else {
+                currentIndex = (currentIndex + 1) % 2;
+                changeSkin(currentIndex === 0 ? skin1 : skin2);
+            }
+        }, 15500);
+
+        const toggleButton = document.getElementById('toggle-skin-change');
+        if (toggleButton) {
+            toggleButton.textContent = 'Stop Auto Change';
+            toggleButton.style.backgroundColor = '#f00';
+        }
+    }
+
+    function stopSkinChanger() {
+        if (intervalId) {
+            clearInterval(intervalId);
+            intervalId = null;
+        }
+        isRunning = false;
+        // Reset the unused skins pool when stopping
+        unusedSkins = [];
+        lastUsedSkin = null;
+
+        // Stop the timer
+        stopTimer('skin');
+
+        const toggleButton = document.getElementById('toggle-skin-change');
+        if (toggleButton) {
+            toggleButton.textContent = 'Start Auto Change';
+            toggleButton.style.backgroundColor = '';
+        }
+
+        showNotification('Auto Skin Changer stopped', 'error');
+    }
+
+    function changeSkin(skinName) {
+        const skinNameInput = document.getElementById('spSkinName');
+        const updateButton = document.getElementById('btn-updateSP');
+
+        if (!skinNameInput || !updateButton) return;
+
+        skinNameInput.value = skinName;
+        skinNameInput.dispatchEvent(new Event('input', { bubbles: true }));
+        updateButton.click();
+
+        // Show notification when skin changes with skin type
+        showNotification(`Skin changed to: ${skinName}`, 'skin');
+    }
+
+    // === Color Changer Functions ===
+    function applyColor(r, g, b) {
+        const chatPanel = document.querySelector('#chat-panel');
+        const chatInput = document.querySelector('#chat-input');
+        if (!chatPanel || !chatInput) return;
+
+        const wasHidden = chatPanel.style.display === 'none';
+        if (wasHidden) {
+            chatPanel.style.opacity = '0';
+            chatPanel.style.display = 'block';
+        }
+
+        chatInput.value = `!color ${r} ${g} ${b}`;
+        chatInput.focus();
+        chatInput.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 13, which: 13 }));
+        chatInput.blur();
+
+        if (wasHidden) {
+            setTimeout(() => {
+                chatPanel.style.display = 'none';
+                chatPanel.style.opacity = '1';
+            }, 500);
+        }
+
+        // Show notification in the same color as applied
+        const notification = document.createElement('div');
+        notification.className = 'hotkey-notification dynamic-color';
+        notification.style.backgroundColor = `rgba(${r}, ${g}, ${b}, 0.9)`;
+        notification.style.borderLeft = `4px solid rgb(${r}, ${g}, ${b})`;
+        showNotification('Color changed', null, 2000, notification);
+    }
+
+    function startColorChanger(color1Inputs, color2Inputs) {
+        if (!color1Inputs || !color2Inputs) return;
+
+        isColorChangerRunning = true;
+        const toggleBtn = document.querySelector('#toggle-color-change');
+        const useRandomColors = document.getElementById('use-random-colors')?.checked;
+
+        if (toggleBtn) {
+            toggleBtn.textContent = 'Stop Auto Change';
+            toggleBtn.style.backgroundColor = '#f00';
+        }
+
+        if (useRandomColors) {
+            const randomColor = generateSophisticatedColor();
+            applyColor(randomColor.r, randomColor.g, randomColor.b);
+        } else {
+            applyColor(
+                parseInt(color1Inputs.redInput.value),
+                parseInt(color1Inputs.greenInput.value),
+                parseInt(color1Inputs.blueInput.value)
+            );
+        }
+
+        showNotification('Auto Color Change started', 'success');
+
+        // Start the timer
+        startTimer('color');
+
+        let currentColor = 2;
+        colorChangerIntervalId = setInterval(() => {
+            if (useRandomColors) {
+                const randomColor = generateSophisticatedColor();
+                applyColor(randomColor.r, randomColor.g, randomColor.b);
+            } else {
+                const inputs = currentColor === 1 ? color1Inputs : color2Inputs;
+                applyColor(
+                    parseInt(inputs.redInput.value),
+                    parseInt(inputs.greenInput.value),
+                    parseInt(inputs.blueInput.value)
+                );
+                currentColor = currentColor === 1 ? 2 : 1;
+            }
+        }, 15500);
+    }
+
+    function stopColorChanger() {
+        if (colorChangerIntervalId) {
+            clearInterval(colorChangerIntervalId);
+            colorChangerIntervalId = null;
+        }
+        isColorChangerRunning = false;
+
+        // Stop the timer
+        stopTimer('color');
+
+        const toggleBtn = document.querySelector('#toggle-color-change');
+        if (toggleBtn) {
+            toggleBtn.textContent = 'Start Auto Change';
+            toggleBtn.style.backgroundColor = '';
+        }
+
+        showNotification('Auto Color Change stopped', 'error');
+    }
+
+    // === Hotkey Functions ===
+    function setupHotkeyListeners() {
+        const hotkeyHandler = throttle((event) => {
+            if (isInputFieldFocused()) return;
+
+            try {
+                const hotkeys = getHotkeys();
+                const key = event.code;
+                const cleanedKey = cleanKeyName(key);
+
+                // Only log if it's a configured hotkey
+                const actionMap = {};
+                Object.entries(hotkeys).forEach(([action, keyCode]) => {
+                    actionMap[keyCode] = action;
+                });
+
+                if (actionMap[cleanedKey]) {
+                    console.log('Hotkey pressed:', cleanedKey, 'Action:', actionMap[cleanedKey]);
+                }
+
+                switch(cleanedKey) {
+                    case hotkeys.pentaSplit:
+                        requestIdleCallback(() => {
+                            startPentaSplit();
+                            showNotification('diag feed (32x32) Activated', 'success');
+                        });
+                        break;
+                    case hotkeys.octoSplit:
+                        requestIdleCallback(() => {
+                            startOctoSplit();
+                            showNotification('diag feed (32x256) Activated', 'success');
+                        });
+                        break;
+                    case hotkeys.tripleSplit:
+                        requestIdleCallback(() => {
+                            startTripleSplit();
+                            showNotification('Triple Split Activated', 'success');
+                        });
+                        break;
+                    case hotkeys.split16x256:
+                        requestIdleCallback(() => {
+                            start16x256Split();
+                        });
+                        break;
+                    case hotkeys.split16x16Long:
+                        requestIdleCallback(() => {
+                            start16x16LongSplit();
+                        });
+                        break;
+                    case hotkeys.split8x:
+                        requestIdleCallback(() => {
+                            perform8xSplit();
+                        });
+                        break;
+                    case hotkeys.split16x:
+                        requestIdleCallback(() => {
+                            perform16xSplit();
+                        });
+                        break;
+                    case hotkeys.split32x:
+                        requestIdleCallback(() => {
+                            perform32xSplit();
+                        });
+                        break;
+                    case hotkeys.split256x:
+                        requestIdleCallback(() => {
+                            perform256xSplit();
+                        });
+                        break;
+                    case hotkeys.disableMassEject:
+                        requestIdleCallback(() => {
+                            const checkbox = document.getElementById('cDisablePersistEjectMass');
+                            if (checkbox) {
+                                checkbox.checked = !checkbox.checked;
+                                checkbox.dispatchEvent(new Event('change'));
+                                showNotification(
+                                    `Mass Eject ${!checkbox.checked ? 'Enabled' : 'Disabled'}`,
+                                    !checkbox.checked ? 'success' : 'error'
+                                );
+                            }
+                        });
+                        break;
+                    case hotkeys.autoRespawn:
+                        requestIdleCallback(() => {
+                            const checkbox = document.getElementById('cAutoRespawn');
+                            if (checkbox) {
+                                checkbox.checked = !checkbox.checked;
+                                checkbox.dispatchEvent(new Event('change'));
+                                showNotification(
+                                    `Auto Respawn ${checkbox.checked ? 'Enabled' : 'Disabled'}`,
+                                    checkbox.checked ? 'success' : 'error'
+                                );
+                            }
+                        });
+                        break;
+                    case hotkeys.hideChat:
+                        requestIdleCallback(() => {
+                            const checkbox = document.getElementById('cHideChat');
+                            if (checkbox) {
+                                checkbox.checked = !checkbox.checked;
+                                checkbox.dispatchEvent(new Event('change'));
+                                showNotification(
+                                    `Chat ${!checkbox.checked ? 'Visible' : 'Hidden'}`,
+                                    !checkbox.checked ? 'success' : 'error'
+                                );
+                            }
+                        });
+                        break;
+                    case hotkeys.showNames:
+                        requestIdleCallback(() => {
+                            toggleNames();
+                        });
+                        break;
+                    case hotkeys.showSkins:
+                        requestIdleCallback(() => {
+                            toggleSkins();
+                        });
+                        break;
+                    case hotkeys.spectateMode:
+                        requestIdleCallback(() => {
+                            toggleSpectateMode();
+                            showNotification('Spectating', 'spectate');
+                        });
+                        break;
+                    case hotkeys.partyCode:
+                        requestIdleCallback(() => {
+                            togglePartyCodeMode();
+                            showNotification('Displaying Party Code', 'party');
+                        });
+                        break;
+                    case hotkeys.leaveParty:
+                        requestIdleCallback(() => {
+                            leaveParty();
+                            showNotification('Leaving Party', 'error');
+                        });
+                        break;
+                }
+            } catch (error) {
+                console.error('Error in hotkey handler:', error);
+            }
+        }, 16);
+
+        document.addEventListener('keydown', hotkeyHandler);
+    }
+
+    function isInputFieldFocused() {
+        const activeElement = document.activeElement;
+        return (
+            activeElement &&
+            (activeElement.tagName === 'INPUT' ||
+                activeElement.tagName === 'TEXTAREA' ||
+                activeElement.isContentEditable)
+        );
+    }
+
+    function toggleCheckbox(id) {
+        const checkbox = document.getElementById(id);
+        if (checkbox) {
+            checkbox.checked = !checkbox.checked;
+            checkbox.dispatchEvent(new Event('change'));
+        }
+    }
+
+    // Optimized toggle function
+    function optimizedToggle(elementId, notificationPrefix = '') {
+        const now = performance.now();
+        if (now - ToggleState.lastToggleTime < TOGGLE_DELAY) {
+            return; // Prevent too frequent toggles
+        }
+
+        // Always get a fresh element or valid cached one
+        const element = ElementCache.getElement(elementId);
+        if (!element) return;
+
+        // Use RAF for smooth UI updates
+        requestAnimationFrame(() => {
+            const currentIndex = TOGGLE_OPTIONS.indexOf(element.value);
+            const nextIndex = (currentIndex + 1) % TOGGLE_OPTIONS.length;
+            const newValue = TOGGLE_OPTIONS[nextIndex];
+
+            element.value = newValue;
+
+            // Use a custom event with less overhead
+            const event = new CustomEvent('change', {
+                bubbles: true,
+                detail: { programmatic: true }
+            });
+
+            element.dispatchEvent(event);
+
+            if (notificationPrefix) {
+                showNotification(`${notificationPrefix}: ${newValue}`, 'success');
+            }
+
+            ToggleState.lastToggleTime = now;
+
+            // Increment toggle counter and clear cache every interval
+            toggleCounter++;
+            if (toggleCounter >= TOGGLE_CACHE_CLEAR_INTERVAL) {
+                ElementCache.clearCache();
+                toggleCounter = 0;
+            }
+
+            // Record performance metrics
+            PerformanceMetrics.recordToggle('toggle', performance.now() - now);
+        });
+    }
+
+    // Optimized toggle functions
+    function toggleNames() {
+        optimizedToggle('sShowNames', 'Names');
+    }
+
+    function toggleSkins() {
+        optimizedToggle('sShowSkins', 'Skins');
+    }
+
+    function toggleChat() {
+        const checkbox = ElementCache.getElement('cHideChat');
+        if (!checkbox) return;
+
+        const now = performance.now();
+        requestAnimationFrame(() => {
+            checkbox.checked = !checkbox.checked;
+            const event = new CustomEvent('change', {
+                bubbles: true,
+                detail: { programmatic: true }
+            });
+            checkbox.dispatchEvent(event);
+
+            showNotification(
+                `Chat ${!checkbox.checked ? 'Visible' : 'Hidden'}`,
+                !checkbox.checked ? 'success' : 'error'
+            );
+
+            // Record performance metrics
+            PerformanceMetrics.recordToggle('chat', performance.now() - now);
+        });
+    }
+
+    function cleanupToggles() {
+        ElementCache.clearCache();
+        ToggleState.toggleQueue.clear();
+        ToggleState.isProcessing = false;
+    }
+
+    function togglePartyCodeMode() {
+        const publicModeElement = document.getElementById('menu-pu_pr');
+        if (publicModeElement) {
+            publicModeElement.click();
+        }
+    }
+
+    function toggleSpectateMode() {
+        const spectateElement = document.getElementById('menu-spectate');
+        if (spectateElement) {
+            spectateElement.click();
+        }
+    }
+
+    function leaveParty() {
+        const chatPanel = document.querySelector('#chat-panel');
+        const chatInput = document.querySelector('#chat-input');
+        if (!chatPanel || !chatInput) return;
+
+        const wasHidden = chatPanel.style.display === 'none';
+        if (wasHidden) {
+            chatPanel.style.opacity = '0';
+            chatPanel.style.display = 'block';
+        }
+
+        chatInput.value = '/leave';
+        chatInput.focus();
+        chatInput.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 13, which: 13 }));
+        chatInput.blur();
+
+        if (wasHidden) {
+            setTimeout(() => {
+                chatPanel.style.display = 'none';
+                chatPanel.style.opacity = '1';
+            }, 500);
+        }
+    }
+
+    function saveAllSettings() {
+        const skin1 = document.getElementById('skin1').value.trim();
+        const skin2 = document.getElementById('skin2').value.trim();
+        saveSkinNames(skin1, skin2);
+
+        const hotkeys = getHotkeys();
+        document.querySelectorAll('input[data-hotkey]').forEach(input => {
+            hotkeys[input.dataset.hotkey] = input.value;
+        });
+        saveHotkeys(hotkeys);
+    }
+
+    // === Storage Functions ===
+    const DEFAULT_COLORS = {
+        color1: { r: 255, g: 50, b: 50 },
+        color2: { r: 50, g: 50, b: 255 }
+    };
+
+    function initializeStorage() {
+        // Initialize hotkeys if not exists
+        if (!localStorage.getItem('enhancer-hotkeys')) {
+            localStorage.setItem('enhancer-hotkeys', JSON.stringify(defaultHotkeys));
+        }
+
+        // Initialize skin names if not exists
+        if (!localStorage.getItem('enhancer-skins')) {
+            localStorage.setItem('enhancer-skins', JSON.stringify({
+                skin1: 'Default1',
+                skin2: 'Default2'
+            }));
+        }
+
+        // Initialize or update color settings
+        let savedColors = localStorage.getItem('enhancer-colors');
+        if (!savedColors) {
+            localStorage.setItem('enhancer-colors', JSON.stringify(DEFAULT_COLORS));
+        } else {
+            try {
+                savedColors = JSON.parse(savedColors);
+                // Ensure both colors exist and have valid values
+                if (!savedColors.color1 || !savedColors.color2) {
+                    localStorage.setItem('enhancer-colors', JSON.stringify(DEFAULT_COLORS));
+                }
+            } catch (e) {
+                localStorage.setItem('enhancer-colors', JSON.stringify(DEFAULT_COLORS));
+            }
+        }
+    }
+
+    function getHotkeys() {
+        try {
+            const storedHotkeys = localStorage.getItem('enhancer-hotkeys');
+            if (!storedHotkeys) {
+                localStorage.setItem('enhancer-hotkeys', JSON.stringify(defaultHotkeys));
+                return defaultHotkeys;
+            }
+            return JSON.parse(storedHotkeys);
+        } catch (error) {
+            console.error('Error getting hotkeys:', error);
+            return defaultHotkeys;
+        }
+    }
+
+    function saveHotkeys(hotkeys) {
+        try {
+            localStorage.setItem('enhancer-hotkeys', JSON.stringify(hotkeys));
+        } catch (error) {
+            console.error('Error saving hotkeys:', error);
+        }
+    }
+
+    function getSkinNames() {
+        return JSON.parse(localStorage.getItem('enhancer-skins')) || {
+            skin1: 'Default1',
+            skin2: 'Default2'
+        };
+    }
+
+    function saveSkinNames(skin1, skin2) {
+        localStorage.setItem('enhancer-skins', JSON.stringify({ skin1, skin2 }));
+    }
+
+    // === Event Listeners ===
+    function setupUIEventListeners(mainButton, window, blackout) {
+        mainButton.addEventListener('click', () => {
+            requestIdleCallback(() => {
+                blackout.style.display = 'block';
+                window.style.display = 'block';
+                window.classList.add('fade-in');
+            });
+        });
+
+        window.querySelector('#enhancer-close').addEventListener('click', () => {
+            blackout.style.display = 'none';
+            window.style.display = 'none';
+            window.classList.remove('fade-in');
+        });
+
+        blackout.addEventListener('click', (e) => {
+            if (e.target === blackout) {
+                blackout.style.display = 'none';
+                window.style.display = 'none';
+                window.classList.remove('fade-in');
+            }
+        });
+
+        // Add notification toggle listener
+        const notificationsToggle = window.querySelector('#notifications-toggle');
+        if (notificationsToggle) {
+            notificationsToggle.addEventListener('change', (e) => {
+                notificationsEnabled = e.target.checked;
+                localStorage.setItem('gota-notifications-enabled', JSON.stringify(notificationsEnabled));
+            });
+        }
+
+        setupSkinChangerListeners(window);
+        setupColorPickerListeners(window);
+        setupHotkeyInputListeners(window);
+
+        // Spam Chat listeners
+        const spamMsgInput = window.querySelector('#spam-chat-message');
+        const spamSlider = window.querySelector('#spam-chat-slider');
+        const spamSliderValue = window.querySelector('#spam-chat-slider-value');
+        let lastSliderValue = 0;
+        if (spamSlider && spamSliderValue && spamMsgInput) {
+            function updateSliderDisplay(val) {
+                if (val === 0) {
+                    spamSliderValue.textContent = 'OFF';
+                } else {
+                    spamSliderValue.textContent = val + 's';
+                }
+            }
+            spamSlider.addEventListener('input', () => {
+                let val = parseInt(spamSlider.value, 10);
+                if (val > 0 && val < 10) val = 10;
+                if (val % 10 !== 0 && val !== 0) val = Math.round(val / 10) * 10;
+                spamSlider.value = val;
+                updateSliderDisplay(val);
+                if (val === 0) {
+                    stopSpamChat();
+                } else {
+                    const msg = spamMsgInput.value.trim();
+                    if (msg) {
+                        startSpamChat(msg, val);
+                    } else {
+                        stopSpamChat();
+                    }
+                }
+                lastSliderValue = val;
+            });
+            spamMsgInput.addEventListener('input', () => {
+                const val = parseInt(spamSlider.value, 10);
+                if (val >= 10) {
+                    const msg = spamMsgInput.value.trim();
+                    if (msg) {
+                        startSpamChat(msg, val);
+                    } else {
+                        stopSpamChat();
+                    }
+                }
+            });
+            updateSliderDisplay(0);
+        }
+    }
+
+    function setupSkinChangerListeners(window) {
+        const toggleButton = window.querySelector('#toggle-skin-change');
+        const randomCheckbox = window.querySelector('#use-random-skins');
+        const randomInfo = window.querySelector('#random-skins-info');
+        const skin1Input = window.querySelector('#skin1');
+        const skin2Input = window.querySelector('#skin2');
+
+        if (toggleButton) {
+            toggleButton.addEventListener('click', toggleSkinChanger);
+        }
+
+        if (randomCheckbox && randomInfo && skin1Input && skin2Input) {
+            randomCheckbox.addEventListener('change', (e) => {
+                const useRandom = e.target.checked;
+                if (useRandom) {
+                    randomInfo.style.display = 'block';
+                    randomInfo.textContent = `${favoriteSkins.length} favorite skins available for random selection`;
+                    skin1Input.disabled = true;
+                    skin2Input.disabled = true;
+                    showNotification('Random Skins On', 'success');
+                } else {
+                    randomInfo.style.display = 'none';
+                    skin1Input.disabled = false;
+                    skin2Input.disabled = false;
+                    showNotification('Random Skins Off', 'error');
+                }
+
+                // Restart skin changer if it's running
+                if (isRunning) {
+                    if (intervalId) {
+                        clearInterval(intervalId);
+                        intervalId = null;
+                    }
+
+                    currentIndex = 0; // Reset currentIndex when switching modes
+                    const skin1 = document.getElementById('skin1').value.trim();
+                    const skin2 = document.getElementById('skin2').value.trim();
+
+                    if (!useRandom && (!skin1 || !skin2)) {
+                        stopSkinChanger();
+                        alert('Please enter valid skin names in both fields.');
+                        return;
+                    }
+
+                    if (useRandom) {
+                        unusedSkins = [...favoriteSkins];
+                        lastUsedSkin = null;
+                        changeSkin(getRandomSkin());
+                    } else {
+                        changeSkin(skin1);
+                    }
+
+                    intervalId = setInterval(() => {
+                        if (useRandom) {
+                            changeSkin(getRandomSkin());
+                        } else {
+                            currentIndex = (currentIndex + 1) % 2;
+                            changeSkin(currentIndex === 0 ? skin1 : skin2);
+                        }
+                    }, 15500);
+                }
+            });
+        }
+
+        [skin1Input, skin2Input].forEach(input => {
+            if (input) {
+                input.addEventListener('input', () => {
+                    const skin1 = document.getElementById('skin1').value.trim();
+                    const skin2 = document.getElementById('skin2').value.trim();
+                    saveSkinNames(skin1, skin2);
+
+                    if (isRunning) {
+                        stopSkinChanger();
+                        startSkinChanger();
+                    }
+                });
+            }
+        });
+
+        // Setup favorites listeners
+        setupFavoritesListeners();
+        updateFavoritesUI();
+    }
+
+    function setupColorPickerListeners(window) {
+        const setupColorPicker = (num) => {
+            const colorPicker = window.querySelector(`#color-picker${num}`);
+            const redInput = window.querySelector(`#red${num}`);
+            const greenInput = window.querySelector(`#green${num}`);
+            const blueInput = window.querySelector(`#blue${num}`);
+            const colorPreview = window.querySelector(`#color-preview${num}`);
+            const applyColorBtn = window.querySelector(`#apply-color${num}`);
+            const randomColorBtn = window.querySelector(`#random-color${num}`);
+
+            if (!colorPicker || !redInput || !greenInput || !blueInput || !colorPreview) return;
+
+            // Load saved colors
+            const savedColors = JSON.parse(localStorage.getItem('enhancer-colors') || '{}');
+            if (savedColors[`color${num}`]) {
+                redInput.value = savedColors[`color${num}`].r;
+                greenInput.value = savedColors[`color${num}`].g;
+                blueInput.value = savedColors[`color${num}`].b;
+            }
+
+            function updateColorPreview() {
+                const r = redInput.value;
+                const g = greenInput.value;
+                const b = blueInput.value;
+                colorPreview.style.backgroundColor = `rgb(${r},${g},${b})`;
+                colorPicker.value = rgbToHex(parseInt(r), parseInt(g), parseInt(b));
+            }
+
+            function rgbToHex(r, g, b) {
+                return '#' + [r, g, b].map(x => {
+                    const hex = parseInt(x).toString(16);
+                    return hex.length === 1 ? '0' + hex : hex;
+                }).join('');
+            }
+
+            function hexToRgb(hex) {
+                const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+                if (!result) return null;
+
+                const rgb = {
+                    r: parseInt(result[1], 16),
+                    g: parseInt(result[2], 16),
+                    b: parseInt(result[3], 16)
+                };
+
+                rgb.r = Math.max(25, rgb.r);
+                rgb.g = Math.max(25, rgb.g);
+                rgb.b = Math.max(25, rgb.b);
+
+                return rgb;
+            }
+
+            colorPicker.addEventListener('input', (e) => {
+                const rgb = hexToRgb(e.target.value);
+                if (rgb) {
+                    redInput.value = rgb.r;
+                    greenInput.value = rgb.g;
+                    blueInput.value = rgb.b;
+                    updateColorPreview();
+                }
+            });
+
+            [redInput, greenInput, blueInput].forEach(input => {
+                input.addEventListener('input', (e) => {
+                    let value = parseInt(e.target.value);
+                    if (isNaN(value)) value = 25;
+                    if (value < 25) value = 25;
+                    if (value > 255) value = 255;
+                    e.target.value = value;
+                    updateColorPreview();
+
+                    // Save colors when changed
+                    const savedColors = JSON.parse(localStorage.getItem('enhancer-colors') || '{}');
+                    savedColors[`color${num}`] = {
+                        r: parseInt(redInput.value),
+                        g: parseInt(greenInput.value),
+                        b: parseInt(blueInput.value)
+                    };
+                    localStorage.setItem('enhancer-colors', JSON.stringify(savedColors));
+                });
+            });
+
+            if (applyColorBtn) {
+                applyColorBtn.addEventListener('click', () => {
+                    const r = parseInt(redInput.value);
+                    const g = parseInt(greenInput.value);
+                    const b = parseInt(blueInput.value);
+
+                    // Save colors when applied
+                    const savedColors = JSON.parse(localStorage.getItem('enhancer-colors') || '{}');
+                    savedColors[`color${num}`] = { r, g, b };
+                    localStorage.setItem('enhancer-colors', JSON.stringify(savedColors));
+
+                    applyColor(r, g, b);
+                });
+            }
+
+            // Add random color button listener
+            if (randomColorBtn) {
+                randomColorBtn.addEventListener('click', () => {
+                    const randomColor = generateSophisticatedColor();
+                    redInput.value = randomColor.r;
+                    greenInput.value = randomColor.g;
+                    blueInput.value = randomColor.b;
+                    updateColorPreview();
+
+                    // Apply the random color
+                    applyColor(randomColor.r, randomColor.g, randomColor.b);
+                });
+            }
+
+            updateColorPreview();
+            return { redInput, greenInput, blueInput };
+        };
+
+        const randomColorsCheckbox = window.querySelector('#use-random-colors');
+        const color1Inputs = setupColorPicker(1);
+        const color2Inputs = setupColorPicker(2);
+        const colorPicker1 = window.querySelector('#color-picker1');
+        const colorPicker2 = window.querySelector('#color-picker2');
+        const randomColor1Btn = window.querySelector('#random-color1');
+        const randomColor2Btn = window.querySelector('#random-color2');
+        const applyColor1Btn = window.querySelector('#apply-color1');
+        const applyColor2Btn = window.querySelector('#apply-color2');
+
+        if (randomColorsCheckbox) {
+            randomColorsCheckbox.addEventListener('change', (e) => {
+                const useRandom = e.target.checked;
+                const inputs = [
+                    ...Object.values(color1Inputs),
+                    ...Object.values(color2Inputs),
+                    colorPicker1,
+                    colorPicker2,
+                    randomColor1Btn,
+                    randomColor2Btn,
+                    applyColor1Btn,
+                    applyColor2Btn
+                ];
+
+                inputs.forEach(input => {
+                    if (input) input.disabled = useRandom;
+                });
+
+                showNotification(useRandom ? 'Random Colors On' : 'Random Colors Off', useRandom ? 'success' : 'error');
+
+                // Restart color changer if it's running
+                if (isColorChangerRunning) {
+                    if (colorChangerIntervalId) {
+                        clearInterval(colorChangerIntervalId);
+                        colorChangerIntervalId = null;
+                    }
+                    startColorChanger(color1Inputs, color2Inputs);
+                }
+            });
+        }
+
+        const toggleColorChangeBtn = window.querySelector('#toggle-color-change');
+        if (toggleColorChangeBtn && color1Inputs && color2Inputs) {
+            toggleColorChangeBtn.addEventListener('click', () => {
+                if (isColorChangerRunning) {
+                    stopColorChanger();
+                } else {
+                    startColorChanger(color1Inputs, color2Inputs);
+                }
+            });
+        }
+    }
+
+    function setupHotkeyInputListeners(window) {
+        window.querySelectorAll('input[data-hotkey]').forEach(input => {
+            input.addEventListener('keydown', (e) => {
+                e.preventDefault();
+                const cleanedKey = cleanKeyName(e.code);
+                input.value = cleanedKey;
+
+                // Update hotkeys in storage with the cleaned key
+                const hotkeys = getHotkeys();
+                hotkeys[input.dataset.hotkey] = cleanedKey; // Store the cleaned key instead of raw code
+                saveHotkeys(hotkeys);
+
+                console.log('Updated hotkeys:', hotkeys); // Debug log
+            });
+        });
+    }
+
+    // === Initialize ===
+    function initialize() {
+        if (!document.querySelector('.main-bottom-right')) {
+            setTimeout(initialize, 1000);
+            return;
+        }
+
+        try {
+            // Initialize storage first
+            initializeStorage();
+
+            // Initialize toggles with optimizations
+            initializeToggles();
+
+            // Create draggable timers
+            createDraggableTimers();
+
+            // Then create UI and setup listeners
+            createStyles();
+            createEnhancerUI();
+            setupHotkeyListeners();
+
+            // Load timer preferences
+            showSkinTimer = JSON.parse(localStorage.getItem('show-skin-timer') || 'false');
+            showColorTimer = JSON.parse(localStorage.getItem('show-color-timer') || 'false');
+
+            // Set up periodic cleanup and performance monitoring
+            setInterval(() => {
+                if (!document.hidden) {  // Only run when page is visible
+                    PerformanceMetrics.checkPerformance();
+                }
+            }, 30000);  // Check every 30 seconds
+
+            // Pre-cache frequently used elements
+            ElementCache.getElement('sShowNames');
+            ElementCache.getElement('sShowSkins');
+            ElementCache.getElement('cHideChat');
+
+            console.log('gota.io Ultimate Enhancer loaded successfully!');
+        } catch (error) {
+            console.error('Error initializing Ultimate Enhancer:', error);
+            cleanup(); // Cleanup on initialization failure
+        }
+    }
+
+    function cleanup() {
+        // Execute all cleanup handlers
+        for (const handler of cleanupHandlers) {
+            try {
+                handler();
+            } catch (error) {
+                console.error('Cleanup handler error:', error);
+            }
+        }
+        cleanupHandlers.clear();
+
+        // Clear all intervals
+        if (intervalId) clearInterval(intervalId);
+        if (colorChangerIntervalId) clearInterval(colorChangerIntervalId);
+        if (skinTimerInterval) clearInterval(skinTimerInterval);
+        if (colorTimerInterval) clearInterval(colorTimerInterval);
+
+        // Clear all caches
+        ElementCache.clearCache();
+        ToggleState.toggleQueue.clear();
+        PerformanceMetrics.cleanup();
+
+        // Remove all event listeners
+        cleanupAllEventListeners();
+
+        isInitialized = false;
+    }
+
+    function initializeToggles() {
+        // Pre-cache frequently used elements
+        ElementCache.getElement('sShowNames');
+        ElementCache.getElement('sShowSkins');
+        ElementCache.getElement('cHideChat');
+
+        // Add cleanup to existing cleanup handlers
+        registerCleanupHandler(cleanupToggles);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+
+    // === Helper Functions ===
+    function cleanKeyName(keyCode) {
+        // Remove 'Key' prefix from letters
+        if (keyCode.startsWith('Key')) {
+            return keyCode.slice(3);
+        }
+        // Remove 'Digit' prefix from numbers
+        if (keyCode.startsWith('Digit')) {
+            return keyCode.slice(5);
+        }
+        // Handle function keys
+        if (keyCode.startsWith('F') && keyCode.length <= 3) {
+            return keyCode; // Keep F1-F12 as is
+        }
+        // Special keys mapping
+        const specialKeys = {
+            'Space': 'SPACE',
+            'Enter': 'ENTER',
+            'Backspace': 'BACK',
+            'Delete': 'DEL',
+            'Escape': 'ESC',
+            'ArrowUp': 'UP',
+            'ArrowDown': 'DOWN',
+            'ArrowLeft': 'LEFT',
+            'ArrowRight': 'RIGHT',
+            'ShiftLeft': 'SHIFT',
+            'ShiftRight': 'SHIFT',
+            'ControlLeft': 'CTRL',
+            'ControlRight': 'CTRL',
+            'AltLeft': 'ALT',
+            'AltRight': 'ALT',
+            'Tab': 'TAB',
+            'NumpadAdd': '+',
+            'NumpadSubtract': '-',
+            'NumpadMultiply': '*',
+            'NumpadDivide': '/',
+            'NumpadDecimal': '.',
+            'Comma': ',',
+            'Period': '.',
+            'Semicolon': ';',
+            'Quote': "'",
+            'BracketLeft': '[',
+            'BracketRight': ']',
+            'Backslash': '\\',
+            'Minus': '-',
+            'Equal': '=',
+            'Slash': '/'
+        };
+
+        // For Numpad numbers, just return the number
+        if (keyCode.startsWith('Numpad')) {
+            const num = keyCode.slice(6);
+            if (!isNaN(num)) {
+                return num;
+            }
+        }
+
+        return specialKeys[keyCode] || keyCode;
+    }
+
+    function getRandomSkin() {
+        if (favoriteSkins.length === 0) return 'Default';
+
+        // If we've used all skins or haven't started yet, reset the unused skins pool
+        if (unusedSkins.length === 0) {
+            // Create a new array with all skins except the last used one
+            unusedSkins = favoriteSkins.filter(skin => skin !== lastUsedSkin);
+
+            // If we filtered out the last used skin and no skins are left
+            // (this would only happen with 1 skin in favorites)
+            if (unusedSkins.length === 0) {
+                unusedSkins = [...favoriteSkins];
+            }
+        }
+
+        // Get a random index from the unused skins
+        const randomIndex = Math.floor(Math.random() * unusedSkins.length);
+        // Get the skin and remove it from unused pool
+        const selectedSkin = unusedSkins.splice(randomIndex, 1)[0];
+        // Update last used skin
+        lastUsedSkin = selectedSkin;
+
+        return selectedSkin;
+    }
+
+    // === New 8x Split Function ===
+    function perform8xSplit() {
+        for (let i = 0; i < 3; i++) simulateSpacebarPress();
+    }
+
+    // Add notification functions
+    let activeNotifications = [];
+    let notificationCount = 0;
+
+    function showNotification(message, type = 'success', duration = 2000, customElement = null) {
+        if (!notificationsEnabled) return;
+
+        const notification = customElement || document.createElement('div');
+        const id = `notification-${notificationCount++}`;
+        notification.id = id;
+        if (!customElement) {
+            notification.className = `hotkey-notification ${type}`;
+        }
+        notification.textContent = message;
+
+        // Position notifications vertically
+        const offset = activeNotifications.length * 50;
+        notification.style.transform = `translateY(-${offset}px)`;
+
+        document.body.appendChild(notification);
+        activeNotifications.push({ id, element: notification });
+
+        // Trigger animation
+        requestAnimationFrame(() => {
+            notification.classList.add('show');
+        });
+
+        // Remove notification after duration
+        setTimeout(() => {
+            notification.classList.remove('show');
+            setTimeout(() => {
+                notification.remove();
+                activeNotifications = activeNotifications.filter(n => n.id !== id);
+                // Reposition remaining notifications
+                activeNotifications.forEach((n, index) => {
+                    n.element.style.transform = `translateY(-${index * 50}px)`;
+                });
+            }, 300);
+        }, duration);
+    }
+
+    function addToFavorites(skinName) {
+        if (!favoriteSkins.includes(skinName)) {
+            favoriteSkins.push(skinName);
+            localStorage.setItem('gota-favorite-skins', JSON.stringify(favoriteSkins));
+            updateFavoritesUI();
+            return true;
+        }
+        return false;
+    }
+
+    function removeFromFavorites(skinName) {
+        const index = favoriteSkins.indexOf(skinName);
+        if (index > -1) {
+            favoriteSkins.splice(index, 1);
+            localStorage.setItem('gota-favorite-skins', JSON.stringify(favoriteSkins));
+            updateFavoritesUI();
+            showNotification(`Deleted skin: ${skinName}`, 'error');
+            return true;
+        }
+        return false;
+    }
+
+    function updateFavoritesUI() {
+        const favoritesList = document.getElementById('favorites-list');
+        if (!favoritesList) return;
+
+        favoritesList.innerHTML = favoriteSkins.map(skin => `
+            <div class="favorite-skin-item" style="display: flex; align-items: center; background: #444; padding: 5px; border-radius: 3px;">
+                <span style="flex: 1; overflow: hidden; text-overflow: ellipsis;">${skin}</span>
+                <button class="enhancer-btn-action use-skin-btn" data-skin="${skin}" style="padding: 2px 5px; margin-left: 5px;">Use</button>
+                <button class="enhancer-btn-action remove-skin-btn" data-skin="${skin}" style="padding: 2px 5px; margin-left: 5px;">×</button>
+            </div>
+        `).join('');
+
+        // Add event listeners for the buttons
+        favoritesList.querySelectorAll('.use-skin-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const skin = btn.getAttribute('data-skin');
+                changeSkin(skin);
+            });
+        });
+
+        favoritesList.querySelectorAll('.remove-skin-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const skin = btn.getAttribute('data-skin');
+                removeFromFavorites(skin);
+            });
+        });
+    }
+
+    function setupFavoritesListeners() {
+        const addButton = document.getElementById('add-favorite-btn');
+        const newSkinInput = document.getElementById('new-favorite-skin');
+
+        if (addButton && newSkinInput) {
+            addButton.addEventListener('click', () => {
+                const skinName = newSkinInput.value.trim();
+                if (skinName && addToFavorites(skinName)) {
+                    newSkinInput.value = '';
+                    showNotification(`Added skin: ${skinName}`, 'success');
+                }
+            });
+
+            newSkinInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    addButton.click();
+                }
+            });
+        }
+    }
+
+    // Add sophisticated color generation functions
+    function generateSophisticatedColor() {
+        // Base colors with their RGB ranges to ensure sophisticated combinations
+        const colorRanges = [
+            // Cool tones
+            { r: [100, 150], g: [200, 255], b: [220, 255] }, // Aquamarine variants
+            { r: [0, 100], g: [150, 200], b: [200, 255] },   // Azure/Cerulean
+            { r: [176, 224], g: [196, 224], b: [222, 255] }, // Powder blue
+
+            // Warm tones
+            { r: [255, 255], g: [180, 218], b: [180, 215] }, // Peach/Coral
+            { r: [250, 255], g: [160, 200], b: [150, 180] }, // Salmon variants
+            { r: [255, 255], g: [170, 200], b: [150, 170] }, // Light terracotta
+
+            // Purple family
+            { r: [218, 255], g: [112, 170], b: [214, 255] }, // Orchid/Lilac
+            { r: [200, 230], g: [150, 190], b: [220, 255] }, // Wisteria
+            { r: [180, 220], g: [140, 180], b: [220, 255] }, // Medium purple
+
+            // Green family
+            { r: [150, 200], g: [200, 255], b: [180, 220] }, // Sage/Seafoam
+            { r: [170, 210], g: [220, 255], b: [180, 220] }, // Mint variants
+            { r: [160, 190], g: [200, 230], b: [160, 190] }, // Pistachio
+
+            // Mixed/Special
+            { r: [230, 255], g: [180, 220], b: [190, 220] }, // Rose gold
+            { r: [220, 255], g: [200, 230], b: [200, 230] }, // Pearl/Ivory
+            { r: [200, 230], g: [190, 220], b: [170, 200] }, // Champagne
+
+            // Modern colors
+            { r: [250, 255], g: [150, 190], b: [180, 220] }, // Millennial pink
+            { r: [150, 200], g: [220, 255], b: [200, 240] }, // Neo mint
+            { r: [180, 220], g: [180, 220], b: [230, 255] }  // Serenity blue
+        ];
+
+        // Pick a random color range
+        const range = colorRanges[Math.floor(Math.random() * colorRanges.length)];
+
+        // Generate random values within the chosen range
+        const r = Math.floor(Math.random() * (range.r[1] - range.r[0]) + range.r[0]);
+        const g = Math.floor(Math.random() * (range.g[1] - range.g[0]) + range.g[0]);
+        const b = Math.floor(Math.random() * (range.b[1] - range.b[0]) + range.b[0]);
+
+        return { r, g, b };
+    }
+
+    function updateTimer(type, timeLeft) {
+        const timerElement = document.getElementById(`${type}-timer`);
+        if (timerElement) {
+            timerElement.textContent = `${type.charAt(0).toUpperCase() + type.slice(1)}: ${timeLeft.toFixed(1)}s`;
+        }
+    }
+
+    function startTimer(type) {
+        const timerElement = document.getElementById(`${type}-timer`);
+        if (!timerElement) return;
+
+        const shouldShow = type === 'skin' ? showSkinTimer : showColorTimer;
+        if (!shouldShow) return;
+
+        // Show timer
+        timerElement.style.display = 'block';
+
+        // Reset time
+        if (type === 'skin') {
+            skinNextChange = 15.5;
+            if (skinTimerInterval) clearInterval(skinTimerInterval);
+            skinTimerInterval = setInterval(() => {
+                skinNextChange = Math.max(0, skinNextChange - 0.1);
+                updateTimer('skin', skinNextChange);
+                if (skinNextChange <= 0) skinNextChange = 15.5;
+            }, 100);
+        } else {
+            colorNextChange = 15.5;
+            if (colorTimerInterval) clearInterval(colorTimerInterval);
+            colorTimerInterval = setInterval(() => {
+                colorNextChange = Math.max(0, colorNextChange - 0.1);
+                updateTimer('color', colorNextChange);
+                if (colorNextChange <= 0) colorNextChange = 15.5;
+            }, 100);
+        }
+    }
+
+    function stopTimer(type) {
+        const timerElement = document.getElementById(`${type}-timer`);
+        if (!timerElement) return;
+
+        // Hide timer
+        timerElement.style.display = 'none';
+
+        // Clear interval
+        if (type === 'skin') {
+            if (skinTimerInterval) {
+                clearInterval(skinTimerInterval);
+                skinTimerInterval = null;
+            }
+        } else {
+            if (colorTimerInterval) {
+                clearInterval(colorTimerInterval);
+                colorTimerInterval = null;
+            }
+        }
+    }
+
+    function createDraggableTimers() {
+        const skinTimer = document.createElement('div');
+        skinTimer.id = 'skin-timer';
+        skinTimer.className = 'timer-display skin';
+        skinTimer.textContent = 'Skin: --.-s';
+
+        const colorTimer = document.createElement('div');
+        colorTimer.id = 'color-timer';
+        colorTimer.className = 'timer-display color';
+        colorTimer.textContent = 'Color: --.-s';
+        colorTimer.style.top = '50px'; // Position below skin timer
+
+        document.body.appendChild(skinTimer);
+        document.body.appendChild(colorTimer);
+
+        // Make timers draggable
+        [skinTimer, colorTimer].forEach(makeElementDraggable);
+    }
+
+    function makeElementDraggable(element) {
+        let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        element.onmousedown = dragMouseDown;
+
+        function dragMouseDown(e) {
+            e.preventDefault();
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+            e.preventDefault();
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            element.style.top = (element.offsetTop - pos2) + "px";
+            element.style.left = (element.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+            document.onmouseup = null;
+            document.onmousemove = null;
+        }
+    }
+
+    // Enhanced Event Management System
+    const eventHandlers = new Map();
+
+    function addOptimizedEventListener(element, eventType, handler, options = {}) {
+        if (!element) return;
+
+        const wrappedHandler = rafThrottle((event) => {
+            queueRAF(() => handler(event));
+        });
+
+        element.addEventListener(eventType, wrappedHandler, options);
+
+        // Store handler reference for cleanup
+        if (!eventHandlers.has(element)) {
+            eventHandlers.set(element, new Map());
+        }
+        eventHandlers.get(element).set(eventType, {
+            original: handler,
+            wrapped: wrappedHandler
+        });
+    }
+
+    function removeOptimizedEventListener(element, eventType) {
+        if (!element || !eventHandlers.has(element)) return;
+
+        const elementHandlers = eventHandlers.get(element);
+        const handler = elementHandlers.get(eventType);
+
+        if (handler) {
+            element.removeEventListener(eventType, handler.wrapped);
+            elementHandlers.delete(eventType);
+        }
+
+        if (elementHandlers.size === 0) {
+            eventHandlers.delete(element);
+        }
+    }
+
+    function cleanupAllEventListeners() {
+        for (const [element, handlers] of eventHandlers) {
+            for (const [eventType, handler] of handlers) {
+                element.removeEventListener(eventType, handler.wrapped);
+            }
+        }
+        eventHandlers.clear();
+    }
+
+    // Enhanced Cleanup and Initialization System
+    let isInitialized = false;
+    let cleanupHandlers = new Set();
+
+    function registerCleanupHandler(handler) {
+        cleanupHandlers.add(handler);
+    }
+
+    // === Spam Chat Feature ===
+    let spamChatIntervalId = null;
+    let spamChatActive = false;
+    let spamChatMessage = '';
+    let spamChatInterval = 0;
+
+    function startSpamChat(message, intervalSec) {
+        stopSpamChat();
+        if (!message || intervalSec < 10) return;
+        spamChatActive = true;
+        spamChatMessage = message;
+        spamChatInterval = intervalSec;
+        sendSpamMessage();
+        spamChatIntervalId = setInterval(sendSpamMessage, intervalSec * 1000);
+    }
+
+    function stopSpamChat() {
+        if (spamChatIntervalId) {
+            clearInterval(spamChatIntervalId);
+            spamChatIntervalId = null;
+        }
+        spamChatActive = false;
+    }
+
+    function sendSpamMessage() {
+        const chatPanel = document.querySelector('#chat-panel');
+        const chatInput = document.querySelector('#chat-input');
+        if (!chatPanel || !chatInput) {
+            console.warn('Spam Chat: chat panel or input not found.');
+            return;
+        }
+        const wasHidden = chatPanel.style.display === 'none';
+        if (wasHidden) {
+            chatPanel.style.opacity = '0';
+            chatPanel.style.display = 'block';
+        }
+        chatInput.value = spamChatMessage;
+        chatInput.focus();
+        chatInput.dispatchEvent(new KeyboardEvent('keyup', { keyCode: 13, which: 13 }));
+        chatInput.blur();
+        if (wasHidden) {
+            setTimeout(() => {
+                chatPanel.style.display = 'none';
+                chatPanel.style.opacity = '1';
+            }, 500);
+        }
+    }
+})();
